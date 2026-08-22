@@ -1,0 +1,38 @@
+{
+  "GatewayCollector": {
+    "caliperIdentity": "GatewayCollector",
+    "actorId": "GatewayCollector",
+    "role": "GatewayCollector",
+    "clearance": "High"
+  },
+  "EvidenceCustodian": {
+    "caliperIdentity": "EvidenceCustodian",
+    "actorId": "EvidenceCustodian",
+    "role": "EvidenceCustodian",
+    "clearance": "High"
+  },
+  "ExternalVendor": {
+    "caliperIdentity": "_Org3MSP_ExternalVendor",
+    "actorId": "ExternalVendor",
+    "role": "ExternalVendor",
+    "clearance": "Medium"
+  },
+  "ExternalAuditor": {
+    "caliperIdentity": "_Org3MSP_ExternalAuditor",
+    "actorId": "ExternalAuditor",
+    "role": "ExternalAuditor",
+    "clearance": "Medium"
+  },
+  "DataProtectionOfficer": {
+    "caliperIdentity": "_Org2MSP_DataProtectionOfficer",
+    "actorId": "DataProtectionOfficer",
+    "role": "DataProtectionOfficer",
+    "clearance": "High"
+  },
+  "JudicialReviewer": {
+    "caliperIdentity": "_Org2MSP_JudicialReviewer",
+    "actorId": "JudicialReviewer",
+    "role": "JudicialReviewer",
+    "clearance": "High"
+  }
+}

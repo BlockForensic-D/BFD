@@ -1,0 +1,35 @@
+test:
+  name: blockforensic-d-approve-evidence-destruction-20260622-031502
+  description: approveEvidenceDestruction txDuration benchmark
+  workers:
+    type: local
+    number: 4
+  rounds:
+    - label: approveEvidenceDestruction_w4_d60_tps60_20260622-031502
+      txDuration: 60
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 60
+      workload:
+        module: workloads/32-approve-destruction-from-requested-pool.js
+        arguments:
+          contractId: forensicContract
+          datasetProfileId: edge_vulnscan_1mib_v3
+          poolPrefix: apdstr0622031502
+          runTag: apdstr0622031502
+          itemCount: 4100
+          txNumber: 16400
+
+report:
+  options:
+    formats:
+      - html
+      - json
+
+monitors:
+  resource:
+    - module: docker
+      options:
+        interval: 2
+        containers: ['all']

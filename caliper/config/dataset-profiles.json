@@ -1,0 +1,18 @@
+{
+  "edge_vulnscan_1mib_v3": {
+    "profileId": "edge_vulnscan_1mib_v3",
+    "dataset": "Edge-IIoTset",
+    "attack": "Vulnerability scanner attack",
+    "windowName": "edge_vulnscan_1MiB.pcap",
+    "windowPath": "/home/labnuc/2labforensic/codeclient/experiments/datasets/final-windows/edge/edge_vulnscan_1MiB.pcap",
+    "windowBytes": 1048576,
+    "fileHash": "3305193e4b259d2ef62db3631b7fc851c8f6ee29a67986d31dcbc83e2337a09a",
+    "chunkSize": 4096,
+    "chunkCount": 256,
+    "commitmentVersion": "chunk-merkle-v3-hmac-opening",
+    "profileEvidenceId": "edge_vulnscan_1mib_v3",
+    "chunkMerkleRoot": "e8d0456496dd9e4df85a732408c281d19871127dec280dcc08c56a3d9f3898b3",
+    "generatedAt": "2026-06-09T04:30:48.364Z",
+    "notes": "Dataset-derived Caliper control-plane profile. Raw PCAP bytes are not submitted to Fabric."
+  }
+}

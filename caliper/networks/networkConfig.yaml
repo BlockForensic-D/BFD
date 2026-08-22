@@ -1,0 +1,68 @@
+name: Network-BlockForensicD-Caliper
+version: "2.0.0"
+
+caliper:
+  blockchain: fabric
+
+channels:
+  - channelName: forensic-channel
+    contracts:
+      - id: forensicContract
+
+organizations:
+  - mspid: Org1MSP
+    identities:
+      certificates:
+        - name: 'GatewayCollector'
+          clientPrivateKey:
+            path: ../organizations/peerOrganizations/org1.example.com/users/GatewayCollector@org1.example.com/msp/keystore/priv_sk
+          clientSignedCert:
+            path: ../organizations/peerOrganizations/org1.example.com/users/GatewayCollector@org1.example.com/msp/signcerts/cert.pem
+
+        - name: 'EvidenceCustodian'
+          clientPrivateKey:
+            path: ../organizations/peerOrganizations/org1.example.com/users/EvidenceCustodian@org1.example.com/msp/keystore/priv_sk
+          clientSignedCert:
+            path: ../organizations/peerOrganizations/org1.example.com/users/EvidenceCustodian@org1.example.com/msp/signcerts/cert.pem
+
+    connectionProfile:
+      path: '/home/labnuc/2labforensic/fabric-samples/test-network/caliper-bench/networks/connection-org1-caliper.yaml'
+      discover: true
+
+  - mspid: Org2MSP
+    identities:
+      certificates:
+        - name: 'DataProtectionOfficer'
+          clientPrivateKey:
+            path: ../organizations/peerOrganizations/org2.example.com/users/DataProtectionOfficer@org2.example.com/msp/keystore/priv_sk
+          clientSignedCert:
+            path: ../organizations/peerOrganizations/org2.example.com/users/DataProtectionOfficer@org2.example.com/msp/signcerts/cert.pem
+
+        - name: 'JudicialReviewer'
+          clientPrivateKey:
+            path: ../organizations/peerOrganizations/org2.example.com/users/JudicialReviewer@org2.example.com/msp/keystore/priv_sk
+          clientSignedCert:
+            path: ../organizations/peerOrganizations/org2.example.com/users/JudicialReviewer@org2.example.com/msp/signcerts/cert.pem
+
+    connectionProfile:
+      path: '/home/labnuc/2labforensic/fabric-samples/test-network/caliper-bench/networks/connection-org2-caliper.yaml'
+      discover: true
+
+  - mspid: Org3MSP
+    identities:
+      certificates:
+        - name: 'ExternalVendor'
+          clientPrivateKey:
+            path: ../organizations/peerOrganizations/org3.example.com/users/ExternalVendor@org3.example.com/msp/keystore/priv_sk
+          clientSignedCert:
+            path: ../organizations/peerOrganizations/org3.example.com/users/ExternalVendor@org3.example.com/msp/signcerts/cert.pem
+
+        - name: 'ExternalAuditor'
+          clientPrivateKey:
+            path: ../organizations/peerOrganizations/org3.example.com/users/ExternalAuditor@org3.example.com/msp/keystore/priv_sk
+          clientSignedCert:
+            path: ../organizations/peerOrganizations/org3.example.com/users/ExternalAuditor@org3.example.com/msp/signcerts/cert.pem
+
+    connectionProfile:
+      path: '/home/labnuc/2labforensic/fabric-samples/test-network/caliper-bench/networks/connection-org3-caliper.yaml'
+      discover: true

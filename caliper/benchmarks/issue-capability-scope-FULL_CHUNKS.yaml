@@ -1,0 +1,69 @@
+test:
+  name: blockforensic-d-issue-capability-scope-FULL_CHUNKS
+  description: issueDisclosureCapability FULL_CHUNKS worker=1 sweep
+  workers:
+    number: 1
+  rounds:
+    - label: issueDisclosureCapability_FULL_CHUNKS_w1_tx500_tps20
+      txNumber: 500
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 20
+      workload:
+        module: workloads/23-issue-from-committed-pool.js
+        arguments:
+          contractId: forensicContract
+          poolPrefix: ifull213911
+          poolWorkerIndex: 0
+          sliceOffset: 0
+          itemCount: 600
+          scopeProfile: FULL_CHUNKS
+
+    - label: issueDisclosureCapability_FULL_CHUNKS_w1_tx500_tps40
+      txNumber: 500
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 40
+      workload:
+        module: workloads/23-issue-from-committed-pool.js
+        arguments:
+          contractId: forensicContract
+          poolPrefix: ifull213911
+          poolWorkerIndex: 0
+          sliceOffset: 500
+          itemCount: 600
+          scopeProfile: FULL_CHUNKS
+
+    - label: issueDisclosureCapability_FULL_CHUNKS_w1_tx500_tps60
+      txNumber: 500
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 60
+      workload:
+        module: workloads/23-issue-from-committed-pool.js
+        arguments:
+          contractId: forensicContract
+          poolPrefix: ifull213911
+          poolWorkerIndex: 0
+          sliceOffset: 1000
+          itemCount: 600
+          scopeProfile: FULL_CHUNKS
+
+    - label: issueDisclosureCapability_FULL_CHUNKS_w1_tx500_tps80
+      txNumber: 500
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 80
+      workload:
+        module: workloads/23-issue-from-committed-pool.js
+        arguments:
+          contractId: forensicContract
+          poolPrefix: ifull213911
+          poolWorkerIndex: 0
+          sliceOffset: 1500
+          itemCount: 600
+          scopeProfile: FULL_CHUNKS

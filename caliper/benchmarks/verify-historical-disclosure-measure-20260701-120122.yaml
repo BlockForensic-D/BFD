@@ -1,0 +1,33 @@
+test:
+  name: blockforensic-d-verify-historical-disclosure-measure-20260701-120122
+  workers:
+    type: local
+    number: 4
+  rounds:
+    - label: verifyHistoricalDisclosure_w4_d60_tps40_20260701-120122
+      txDuration: 60
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 40
+      workload:
+        module: workloads/41-verify-historical-disclosure-inline-seeded.js
+        arguments:
+          contractId: forensicContract
+          datasetProfileId: edge_vulnscan_1mib_v3
+          poolPrefix: vhist0701120122
+          seedCount: 610
+          readOnly: false
+
+report:
+  options:
+    formats:
+      - html
+      - json
+
+monitors:
+  resource:
+    - module: docker
+      options:
+        interval: 2
+        containers: ['all']

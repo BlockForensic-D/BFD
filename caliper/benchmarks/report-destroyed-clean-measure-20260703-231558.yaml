@@ -1,0 +1,38 @@
+test:
+  name: blockforensic-d-report-evidence-destroyed-20260703-231558
+  description: reportEvidenceDestroyed txDuration benchmark
+  workers:
+    type: local
+    number: 4
+  rounds:
+    - label: reportEvidenceDestroyed_2of3_w4_d60_tps20_20260703-231558
+      txDuration: 60
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 20
+      workload:
+        module: workloads/27-report-destroyed-from-approved-pool.js
+        arguments:
+          contractId: forensicContract
+          datasetProfileId: edge_vulnscan_1mib_v3
+          poolPrefix: rpdstr0703231558
+          runTag: rpdstr0703231558
+          itemCount: 1700
+          txNumber: 6800
+          attestationProfile: 2of3
+          requiredAttestations: 2
+          totalAttesters: 3
+
+report:
+  options:
+    formats:
+      - html
+      - json
+
+monitors:
+  resource:
+    - module: docker
+      options:
+        interval: 2
+        containers: ['all']

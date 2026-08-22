@@ -1,0 +1,36 @@
+test:
+  name: blockforensic-d-full-lifecycle-logical-e2e-20260623-123449
+  description: full lifecycle logical E2E benchmark
+  workers:
+    type: local
+    number: 4
+  rounds:
+    - label: fullLifecycle_logicalE2E_w4_n500_rate20_20260623-123449
+      txNumber: 500
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 20
+      workload:
+        module: workloads/38-full-lifecycle-logical-e2e.js
+        arguments:
+          contractId: forensicContract
+          datasetProfileId: edge_vulnscan_1mib_v3
+          poolPrefix: fle2e0623123449
+          runTag: fle2e0623123449
+          seedCount: 145
+          txNumber: 500
+          scopeProfile: HASH_ONLY
+
+report:
+  options:
+    formats:
+      - html
+      - json
+
+monitors:
+  resource:
+    - module: docker
+      options:
+        interval: 2
+        containers: ['all']

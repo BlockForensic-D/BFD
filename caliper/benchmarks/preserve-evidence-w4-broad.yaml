@@ -1,0 +1,90 @@
+test:
+  name: blockforensic-d-preserve-evidence-w4-broad
+  description: preserveEvidence worker=4 broad sweep
+  workers:
+    number: 4
+  rounds:
+    - label: preserveEvidence_w4_tx1000_tps80
+      txNumber: 1000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 80
+      workload:
+        module: workloads/34-preserve-evidence-measure.js
+        arguments:
+          contractId: forensicContract
+          poolPrefix: presw4170535
+          poolWorkerIndex: 0
+          sliceOffset: 0
+          itemCount: 300
+          scopeProfile: HASH_ONLY
+          manifestDir: config/preserve-manifests-presw4170535
+
+    - label: preserveEvidence_w4_tx1000_tps100
+      txNumber: 1000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workloads/34-preserve-evidence-measure.js
+        arguments:
+          contractId: forensicContract
+          poolPrefix: presw4170535
+          poolWorkerIndex: 0
+          sliceOffset: 1200
+          itemCount: 300
+          scopeProfile: HASH_ONLY
+          manifestDir: config/preserve-manifests-presw4170535
+
+    - label: preserveEvidence_w4_tx1000_tps120
+      txNumber: 1000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 120
+      workload:
+        module: workloads/34-preserve-evidence-measure.js
+        arguments:
+          contractId: forensicContract
+          poolPrefix: presw4170535
+          poolWorkerIndex: 0
+          sliceOffset: 2400
+          itemCount: 300
+          scopeProfile: HASH_ONLY
+          manifestDir: config/preserve-manifests-presw4170535
+
+    - label: preserveEvidence_w4_tx1000_tps150
+      txNumber: 1000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 150
+      workload:
+        module: workloads/34-preserve-evidence-measure.js
+        arguments:
+          contractId: forensicContract
+          poolPrefix: presw4170535
+          poolWorkerIndex: 0
+          sliceOffset: 3600
+          itemCount: 300
+          scopeProfile: HASH_ONLY
+          manifestDir: config/preserve-manifests-presw4170535
+
+    - label: preserveEvidence_w4_tx1000_tps180
+      txNumber: 1000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 180
+      workload:
+        module: workloads/34-preserve-evidence-measure.js
+        arguments:
+          contractId: forensicContract
+          poolPrefix: presw4170535
+          poolWorkerIndex: 0
+          sliceOffset: 4800
+          itemCount: 300
+          scopeProfile: HASH_ONLY
+          manifestDir: config/preserve-manifests-presw4170535

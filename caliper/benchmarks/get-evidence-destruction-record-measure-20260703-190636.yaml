@@ -1,0 +1,34 @@
+test:
+  name: blockforensic-d-get-evidence-destruction-record-measure-20260703-190636
+  workers:
+    type: local
+    number: 4
+  rounds:
+    - label: getEvidenceDestructionRecord_w4_d60_tps500_20260703-190636
+      txDuration: 60
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 500
+      workload:
+        module: workloads/43-get-evidence-destruction-record-inline-seeded.js
+        arguments:
+          contractId: forensicContract
+          datasetProfileId: edge_vulnscan_1mib_v3
+          poolPrefix: gdr0703190636
+          seedCount: 100
+          readOnly: true
+          circularPool: true
+
+report:
+  options:
+    formats:
+      - html
+      - json
+
+monitors:
+  resource:
+    - module: docker
+      options:
+        interval: 2
+        containers: ['all']

@@ -1,0 +1,36 @@
+test:
+  name: blockforensic-d-request-disclosure-duration-only-20260619-034359
+  description: requestDisclosure HASH_ONLY txDuration run
+  workers:
+    type: local
+    number: 4
+  rounds:
+    - label: requestDisclosure_HASH_ONLY_w4_d60_tps80_20260619-034359
+      txDuration: 60
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 80
+      workload:
+        module: workloads/25-request-disclosure-from-authorized-pool.js
+        arguments:
+          contractId: forensicContract
+          datasetProfileId: edge_vulnscan_1mib_v3
+          poolPrefix: rqd0619034359
+          runTag: rqd0619034359
+          itemCount: 7000
+          txNumber: 28000
+          scopeProfile: HASH_ONLY
+
+report:
+  options:
+    formats:
+      - html
+      - json
+
+monitors:
+  resource:
+    - module: docker
+      options:
+        interval: 2
+        containers: ['all']

@@ -1,0 +1,25 @@
+{
+  "channelName": "forensic-channel",
+  "contractId": "forensicContract",
+  "commitmentVersion": "chunk-merkle-v3-hmac-opening",
+  "chunkSize": 4096,
+  "chunkCount": 256,
+  "defaultTxNumber": 100,
+  "defaultTps": 10,
+  "defaultWorkers": 1,
+  "capabilityTtlHours": 24,
+  "destructionThreshold": {
+    "required": 2,
+    "eligibleRoles": [
+      "DataProtectionOfficer",
+      "JudicialReviewer",
+      "EvidenceCustodian"
+    ]
+  },
+  "destroyedKeyClasses": [
+    "EMK",
+    "K_SALT"
+  ],
+  "datasetRef": "edge_vulnscan_1mib_v3",
+  "datasetProfileId": "edge_vulnscan_1mib_v3"
+}

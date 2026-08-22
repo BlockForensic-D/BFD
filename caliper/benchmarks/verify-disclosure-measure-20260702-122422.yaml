@@ -1,0 +1,33 @@
+test:
+  name: blockforensic-d-verify-disclosure-measure-20260702-122422
+  workers:
+    type: local
+    number: 4
+  rounds:
+    - label: verifyDisclosure_w4_d60_tps60_20260702-122422
+      txDuration: 60
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 60
+      workload:
+        module: workloads/40-verify-disclosure-inline-seeded.js
+        arguments:
+          contractId: forensicContract
+          datasetProfileId: edge_vulnscan_1mib_v3
+          poolPrefix: vdis0702122422
+          seedCount: 910
+          readOnly: false
+
+report:
+  options:
+    formats:
+      - html
+      - json
+
+monitors:
+  resource:
+    - module: docker
+      options:
+        interval: 2
+        containers: ['all']

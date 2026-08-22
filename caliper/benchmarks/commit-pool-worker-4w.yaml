@@ -1,0 +1,78 @@
+test:
+  name: blockforensic-d-commit-pool-worker-4w
+  description: Measurement-only commitPreservedEvidence worker sensitivity using preseeded PRESERVED evidence pool
+  workers:
+    number: 4
+  rounds:
+    - label: commitPreservedEvidence_w4_tx1000_tps100
+      txNumber: 1000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workloads/21-commit-from-preserved-pool.js
+        arguments:
+          contractId: forensicContract
+          datasetProfileId: edge_vulnscan_1mib_v3
+          poolPrefix: w145080355
+          poolWorkerIndex: 0
+          sliceOffset: 4400
+          itemCount: 350
+          txNumber: 1000
+          scopeProfile: HASH_ONLY
+
+    - label: commitPreservedEvidence_w4_tx1000_tps120
+      txNumber: 1000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 120
+      workload:
+        module: workloads/21-commit-from-preserved-pool.js
+        arguments:
+          contractId: forensicContract
+          datasetProfileId: edge_vulnscan_1mib_v3
+          poolPrefix: w145080355
+          poolWorkerIndex: 0
+          sliceOffset: 5800
+          itemCount: 350
+          txNumber: 1000
+          scopeProfile: HASH_ONLY
+
+    - label: commitPreservedEvidence_w4_tx1000_tps125
+      txNumber: 1000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 125
+      workload:
+        module: workloads/21-commit-from-preserved-pool.js
+        arguments:
+          contractId: forensicContract
+          datasetProfileId: edge_vulnscan_1mib_v3
+          poolPrefix: w145080355
+          poolWorkerIndex: 0
+          sliceOffset: 7200
+          itemCount: 350
+          txNumber: 1000
+          scopeProfile: HASH_ONLY
+
+    - label: commitPreservedEvidence_w4_tx1000_tps150
+      txNumber: 1000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 150
+      workload:
+        module: workloads/21-commit-from-preserved-pool.js
+        arguments:
+          contractId: forensicContract
+          datasetProfileId: edge_vulnscan_1mib_v3
+          poolPrefix: w145080355
+          poolWorkerIndex: 0
+          sliceOffset: 8600
+          itemCount: 350
+          txNumber: 1000
+          scopeProfile: HASH_ONLY
+
