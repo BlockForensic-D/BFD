@@ -1,0 +1,10 @@
+[
+  {
+    "evidence_id": "edge-vulnscan-1mib",
+    "file_name": "edge_vulnscan_1MiB.pcap",
+    "file_path": "experiments/datasets/final-windows/edge/edge_vulnscan_1MiB.pcap",
+    "evidence_type": "pcap",
+    "dataset": "Edge-IIoTset",
+    "label": "vulnerability_scanner_attack_1MiB"
+  }
+]

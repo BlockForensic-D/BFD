@@ -1,0 +1,18 @@
+[
+  {
+    "evidence_id": "swat-attack2-1024mib",
+    "file_name": "swat_attack2_1024MiB.pcap",
+    "file_path": "experiments/datasets/final-windows/swat/swat_attack2_1024MiB.pcap",
+    "evidence_type": "pcap",
+    "dataset": "SWaT",
+    "label": "attack2_1024MiB"
+  },
+  {
+    "evidence_id": "swat-attack2-2048mib",
+    "file_name": "swat_attack2_2048MiB.pcap",
+    "file_path": "experiments/datasets/final-windows/swat/swat_attack2_2048MiB.pcap",
+    "evidence_type": "pcap",
+    "dataset": "SWaT",
+    "label": "attack2_2048MiB"
+  }
+]

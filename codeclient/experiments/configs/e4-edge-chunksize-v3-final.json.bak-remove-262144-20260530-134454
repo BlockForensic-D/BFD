@@ -1,0 +1,35 @@
+{
+  "datasetName": "E4-chunk-size-sensitivity",
+  "chunkSizes": [
+    512,
+    1024,
+    4096,
+    16384,
+    65536,
+    262144
+  ],
+  "disclosureModes": [
+    "CHUNK_SET"
+  ],
+  "disclosedChunkSets": [],
+  "disclosedChunkPolicies": [
+    {
+      "name": "constant-32kb-window",
+      "type": "byteRange",
+      "offsetBytes": 0,
+      "lengthBytes": 32768
+    },
+    {
+      "name": "constant-first-8-chunks",
+      "type": "firstN",
+      "n": 8
+    }
+  ],
+  "commitmentVersions": [
+    "chunk-merkle-v3-hmac-opening"
+  ],
+  "repetitions": 30,
+  "warmupRepetitions": 5,
+  "platform": "host",
+  "evidenceType": "pcap"
+}

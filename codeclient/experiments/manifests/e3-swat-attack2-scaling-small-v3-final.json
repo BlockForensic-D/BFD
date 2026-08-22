@@ -1,0 +1,50 @@
+[
+  {
+    "evidence_id": "swat-attack2-1mib",
+    "file_name": "swat_attack2_1MiB.pcap",
+    "file_path": "experiments/datasets/final-windows/swat/swat_attack2_1MiB.pcap",
+    "evidence_type": "pcap",
+    "dataset": "SWaT",
+    "label": "attack2_1MiB"
+  },
+  {
+    "evidence_id": "swat-attack2-16mib",
+    "file_name": "swat_attack2_16MiB.pcap",
+    "file_path": "experiments/datasets/final-windows/swat/swat_attack2_16MiB.pcap",
+    "evidence_type": "pcap",
+    "dataset": "SWaT",
+    "label": "attack2_16MiB"
+  },
+  {
+    "evidence_id": "swat-attack2-64mib",
+    "file_name": "swat_attack2_64MiB.pcap",
+    "file_path": "experiments/datasets/final-windows/swat/swat_attack2_64MiB.pcap",
+    "evidence_type": "pcap",
+    "dataset": "SWaT",
+    "label": "attack2_64MiB"
+  },
+  {
+    "evidence_id": "swat-attack2-128mib",
+    "file_name": "swat_attack2_128MiB.pcap",
+    "file_path": "experiments/datasets/final-windows/swat/swat_attack2_128MiB.pcap",
+    "evidence_type": "pcap",
+    "dataset": "SWaT",
+    "label": "attack2_128MiB"
+  },
+  {
+    "evidence_id": "swat-attack2-256mib",
+    "file_name": "swat_attack2_256MiB.pcap",
+    "file_path": "experiments/datasets/final-windows/swat/swat_attack2_256MiB.pcap",
+    "evidence_type": "pcap",
+    "dataset": "SWaT",
+    "label": "attack2_256MiB"
+  },
+  {
+    "evidence_id": "swat-attack2-512mib",
+    "file_name": "swat_attack2_512MiB.pcap",
+    "file_path": "experiments/datasets/final-windows/swat/swat_attack2_512MiB.pcap",
+    "evidence_type": "pcap",
+    "dataset": "SWaT",
+    "label": "attack2_512MiB"
+  }
+]

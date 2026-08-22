@@ -1,0 +1,39 @@
+{
+  "datasetName": "E3-file-size-scaling",
+  "chunkSizes": [
+    4096
+  ],
+  "disclosureModes": [
+    "HASH_ONLY",
+    "CHUNK_SET"
+  ],
+  "disclosedChunkSets": [],
+  "disclosedChunkPolicies": [
+    {
+      "name": "constant-32kb-window",
+      "type": "byteRange",
+      "offsetBytes": 0,
+      "lengthBytes": 32768
+    },
+    {
+      "name": "constant-first-8-chunks",
+      "type": "firstN",
+      "n": 8
+    },
+    {
+      "name": "relative-1pct-max64",
+      "type": "percentage",
+      "ratio": 0.01,
+      "minChunks": 1,
+      "maxChunks": 64,
+      "strategy": "firstN"
+    }
+  ],
+  "commitmentVersions": [
+    "chunk-merkle-v3-hmac-opening"
+  ],
+  "repetitions": 1,
+  "warmupRepetitions": 0,
+  "platform": "host",
+  "evidenceType": "binary"
+}

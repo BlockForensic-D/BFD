@@ -1,0 +1,10 @@
+[
+  {
+    "evidence_id": "edge-vulnerability-scanner-attack-pcap",
+    "file_name": "Vulnerability scanner attack.pcap",
+    "file_path": "experiments/datasets/Edge-IIoTset/Attack traffic/Vulnerability scanner attack.pcap",
+    "evidence_type": "pcap",
+    "dataset": "Edge-IIoTset",
+    "label": "vulnerability_scanner_attack"
+  }
+]

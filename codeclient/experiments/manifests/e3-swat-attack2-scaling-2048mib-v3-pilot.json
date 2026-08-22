@@ -1,0 +1,10 @@
+[
+  {
+    "evidence_id": "swat-attack2-2048mib",
+    "file_name": "swat_attack2_2048MiB.pcap",
+    "file_path": "experiments/datasets/final-windows/swat/swat_attack2_2048MiB.pcap",
+    "evidence_type": "pcap",
+    "dataset": "SWaT",
+    "label": "attack2_2048MiB"
+  }
+]

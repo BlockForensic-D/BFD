@@ -1,0 +1,10 @@
+[
+  {
+    "evidence_id": "swat-attack2-full-2p85gib",
+    "file_name": "swat_attack2_full_2p85GiB.pcap",
+    "file_path": "experiments/datasets/final-windows/swat/swat_attack2_full_2p85GiB.pcap",
+    "evidence_type": "pcap",
+    "dataset": "SWaT",
+    "label": "attack2_full_2p85GiB"
+  }
+]
