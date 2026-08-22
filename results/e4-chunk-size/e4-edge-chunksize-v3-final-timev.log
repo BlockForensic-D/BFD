@@ -1,0 +1,23 @@
+	Command being timed: "node experiments/run-disclosure-bench.js --inputManifest experiments/manifests/e4-edge-vulnscan-16mib-v3-final.json --config experiments/configs/final-v3/e4-edge-chunksize-v3-final.json --outputJson experiments/results/final-e2e4-v3/e4-edge-chunksize-v3-final.json --outputCsv experiments/results/final-e2e4-v3/e4-edge-chunksize-v3-final.csv --group E4 --scenarioPrefix e4"
+	User time (seconds): 1841.55
+	System time (seconds): 30.50
+	Percent of CPU this job got: 126%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 24:43.18
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1354576
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 12557388
+	Voluntary context switches: 1347912
+	Involuntary context switches: 31400
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 1352
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

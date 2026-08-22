@@ -1,0 +1,109 @@
+stage_order,stage_group,operation_order,operation_key,canonical_operation,operation_label,metric,source_column,n,mean,median,min,max,range,stddev_sample,stddev_population,sem,cv_percent
+1,Preservation and commitment,1,preserve,preserveEvidence,preserveEvidence,send_rate_tps,sendRateTps,3,120.0666667,120.1,120,120.1,0.1,0.057735027,0.047140452,0.033333333,0.048085808
+1,Preservation and commitment,1,preserve,preserveEvidence,preserveEvidence,throughput_tps,throughputTps,3,115.8,115.8,115.8,115.8,0,0,0,0,0
+1,Preservation and commitment,1,preserve,preserveEvidence,preserveEvidence,throughput_send_ratio,throughputSendRatio,3,0.964464335,0.964196503,0.964196503,0.965,0.000803497,0.000463899,0.000378772,0.000267832,0.048099162
+1,Preservation and commitment,1,preserve,preserveEvidence,preserveEvidence,avg_latency_sec,avgLatencySec,3,0.866666667,0.84,0.79,0.97,0.18,0.092915732,0.075865378,0.053644923,10.72104605
+1,Preservation and commitment,1,preserve,preserveEvidence,preserveEvidence,min_latency_sec,minLatencySec,3,0.28,0.28,0.28,0.28,0,0,0,0,0
+1,Preservation and commitment,1,preserve,preserveEvidence,preserveEvidence,max_latency_sec,maxLatencySec,3,2.413333333,2.43,2.21,2.6,0.39,0.195533458,0.1596524,0.112891295,8.102215125
+1,Preservation and commitment,1,preserve,preserveEvidence,preserveEvidence,actual_tx,actual_tx,3,7204,7204,7204,7204,0,0,0,0,0
+1,Preservation and commitment,1,preserve,preserveEvidence,preserveEvidence,succ,succ,3,7204,7204,7204,7204,0,0,0,0,0
+1,Preservation and commitment,1,preserve,preserveEvidence,preserveEvidence,fail,fail,3,0,0,0,0,0,0,0,0,
+2,Preservation and commitment,2,commit,commitPreservedEvidence,commitPreservedEvidence,send_rate_tps,sendRateTps,3,120.0333333,120,120,120.1,0.1,0.057735027,0.047140452,0.033333333,0.048099162
+2,Preservation and commitment,2,commit,commitPreservedEvidence,commitPreservedEvidence,throughput_tps,throughputTps,3,115.5,115.7,115.1,115.7,0.6,0.346410162,0.282842712,0.2,0.299922218
+2,Preservation and commitment,2,commit,commitPreservedEvidence,commitPreservedEvidence,throughput_send_ratio,throughputSendRatio,3,0.962232399,0.963363863,0.959166667,0.964166667,0.005,0.002685174,0.002192435,0.001550286,0.279056694
+2,Preservation and commitment,2,commit,commitPreservedEvidence,commitPreservedEvidence,avg_latency_sec,avgLatencySec,3,1.18,1.24,0.99,1.31,0.32,0.168226038,0.137355985,0.097125349,14.25644393
+2,Preservation and commitment,2,commit,commitPreservedEvidence,commitPreservedEvidence,min_latency_sec,minLatencySec,3,0.396666667,0.4,0.35,0.44,0.09,0.045092498,0.03681787,0.026034166,11.36785652
+2,Preservation and commitment,2,commit,commitPreservedEvidence,commitPreservedEvidence,max_latency_sec,maxLatencySec,3,2.913333333,3,2.67,3.07,0.4,0.2136196,0.174419673,0.123333333,7.332480535
+2,Preservation and commitment,2,commit,commitPreservedEvidence,commitPreservedEvidence,actual_tx,actual_tx,3,7204,7204,7204,7204,0,0,0,0,0
+2,Preservation and commitment,2,commit,commitPreservedEvidence,commitPreservedEvidence,succ,succ,3,7204,7204,7204,7204,0,0,0,0,0
+2,Preservation and commitment,2,commit,commitPreservedEvidence,commitPreservedEvidence,fail,fail,3,0,0,0,0,0,0,0,0,
+3,Disclosure governance,3,issue_disclosure,issueDisclosureCapability,issueDisclosureCapability,send_rate_tps,sendRateTps,3,60.06666667,60.1,60,60.1,0.1,0.057735027,0.047140452,0.033333333,0.096118247
+3,Disclosure governance,3,issue_disclosure,issueDisclosureCapability,issueDisclosureCapability,throughput_tps,throughputTps,3,57.66666667,57.9,57.2,57.9,0.7,0.404145188,0.329983165,0.233333333,0.700829807
+3,Disclosure governance,3,issue_disclosure,issueDisclosureCapability,issueDisclosureCapability,throughput_send_ratio,throughputSendRatio,3,0.960040673,0.963394343,0.953333333,0.963394343,0.010061009,0.005808727,0.004742805,0.00335367,0.605050043
+3,Disclosure governance,3,issue_disclosure,issueDisclosureCapability,issueDisclosureCapability,avg_latency_sec,avgLatencySec,3,1.46,1.45,1.36,1.57,0.21,0.105356538,0.086023253,0.060827625,7.216201201
+3,Disclosure governance,3,issue_disclosure,issueDisclosureCapability,issueDisclosureCapability,min_latency_sec,minLatencySec,3,0.33,0.34,0.31,0.34,0.03,0.017320508,0.014142136,0.01,5.248638811
+3,Disclosure governance,3,issue_disclosure,issueDisclosureCapability,issueDisclosureCapability,max_latency_sec,maxLatencySec,3,4.316666667,4.23,3.63,5.09,1.46,0.733848304,0.599184631,0.423687516,17.00034681
+3,Disclosure governance,3,issue_disclosure,issueDisclosureCapability,issueDisclosureCapability,actual_tx,actual_tx,3,3603.666667,3604,3603,3604,1,0.577350269,0.471404521,0.333333333,0.01602119
+3,Disclosure governance,3,issue_disclosure,issueDisclosureCapability,issueDisclosureCapability,succ,succ,3,3603.666667,3604,3603,3604,1,0.577350269,0.471404521,0.333333333,0.01602119
+3,Disclosure governance,3,issue_disclosure,issueDisclosureCapability,issueDisclosureCapability,fail,fail,3,0,0,0,0,0,0,0,0,
+4,Disclosure governance,4,request_disclosure,requestDisclosure,requestDisclosure,send_rate_tps,sendRateTps,3,60.1,60.1,60.1,60.1,0,0,0,0,0
+4,Disclosure governance,4,request_disclosure,requestDisclosure,requestDisclosure,throughput_tps,throughputTps,3,57.93333333,57.9,57.9,58,0.1,0.057735027,0.047140452,0.033333333,0.099657699
+4,Disclosure governance,4,request_disclosure,requestDisclosure,requestDisclosure,throughput_send_ratio,throughputSendRatio,3,0.963948974,0.963394343,0.963394343,0.965058236,0.001663894,0.000960649,0.000784367,0.000554631,0.099657699
+4,Disclosure governance,4,request_disclosure,requestDisclosure,requestDisclosure,avg_latency_sec,avgLatencySec,3,1.336666667,1.37,1.26,1.38,0.12,0.066583281,0.054365021,0.038441875,4.981292857
+4,Disclosure governance,4,request_disclosure,requestDisclosure,requestDisclosure,min_latency_sec,minLatencySec,3,0.36,0.36,0.27,0.45,0.18,0.09,0.073484692,0.051961524,25
+4,Disclosure governance,4,request_disclosure,requestDisclosure,requestDisclosure,max_latency_sec,maxLatencySec,3,2.763333333,2.82,2.56,2.91,0.35,0.181750745,0.148398862,0.104933842,6.57722841
+4,Disclosure governance,4,request_disclosure,requestDisclosure,requestDisclosure,actual_tx,actual_tx,3,3604,3604,3604,3604,0,0,0,0,0
+4,Disclosure governance,4,request_disclosure,requestDisclosure,requestDisclosure,succ,succ,3,3604,3604,3604,3604,0,0,0,0,0
+4,Disclosure governance,4,request_disclosure,requestDisclosure,requestDisclosure,fail,fail,3,0,0,0,0,0,0,0,0,
+5,Disclosure verification,5,verify_disclosure,verifyDisclosure,verifyDisclosure,send_rate_tps,sendRateTps,3,60.1,60.1,60.1,60.1,0,0,0,0,0
+5,Disclosure verification,5,verify_disclosure,verifyDisclosure,verifyDisclosure,throughput_tps,throughputTps,3,57.83333333,57.8,57.8,57.9,0.1,0.057735027,0.047140452,0.033333333,0.099830018
+5,Disclosure verification,5,verify_disclosure,verifyDisclosure,verifyDisclosure,throughput_send_ratio,throughputSendRatio,3,0.96228508,0.961730449,0.961730449,0.963394343,0.001663894,0.000960649,0.000784367,0.000554631,0.099830018
+5,Disclosure verification,5,verify_disclosure,verifyDisclosure,verifyDisclosure,avg_latency_sec,avgLatencySec,3,1.523333333,1.53,1.51,1.53,0.02,0.011547005,0.00942809,0.006666667,0.758009106
+5,Disclosure verification,5,verify_disclosure,verifyDisclosure,verifyDisclosure,min_latency_sec,minLatencySec,3,0.55,0.55,0.54,0.56,0.02,0.01,0.008164966,0.005773503,1.818181818
+5,Disclosure verification,5,verify_disclosure,verifyDisclosure,verifyDisclosure,max_latency_sec,maxLatencySec,3,2.826666667,2.86,2.71,2.91,0.2,0.1040833,0.084983659,0.060092521,3.682192216
+5,Disclosure verification,5,verify_disclosure,verifyDisclosure,verifyDisclosure,actual_tx,actual_tx,3,3604,3604,3604,3604,0,0,0,0,0
+5,Disclosure verification,5,verify_disclosure,verifyDisclosure,verifyDisclosure,succ,succ,3,3604,3604,3604,3604,0,0,0,0,0
+5,Disclosure verification,5,verify_disclosure,verifyDisclosure,verifyDisclosure,fail,fail,3,0,0,0,0,0,0,0,0,
+6,Destruction governance,6,request_destruction,requestEvidenceDestruction,requestEvidenceDestruction,send_rate_tps,sendRateTps,3,60.1,60.1,60.1,60.1,0,0,0,0,0
+6,Destruction governance,6,request_destruction,requestEvidenceDestruction,requestEvidenceDestruction,throughput_tps,throughputTps,3,57.46666667,57.4,57.2,57.8,0.6,0.305505046,0.249443826,0.176383421,0.53162131
+6,Destruction governance,6,request_destruction,requestEvidenceDestruction,requestEvidenceDestruction,throughput_send_ratio,throughputSendRatio,3,0.956184138,0.955074875,0.951747088,0.961730449,0.009983361,0.005083279,0.00415048,0.002934832,0.53162131
+6,Destruction governance,6,request_destruction,requestEvidenceDestruction,requestEvidenceDestruction,avg_latency_sec,avgLatencySec,3,1.3,1.29,1.28,1.33,0.05,0.026457513,0.021602469,0.015275252,2.035193316
+6,Destruction governance,6,request_destruction,requestEvidenceDestruction,requestEvidenceDestruction,min_latency_sec,minLatencySec,3,0.283333333,0.28,0.27,0.3,0.03,0.015275252,0.012472191,0.008819171,5.391265523
+6,Destruction governance,6,request_destruction,requestEvidenceDestruction,requestEvidenceDestruction,max_latency_sec,maxLatencySec,3,3,3.02,2.9,3.08,0.18,0.091651514,0.074833148,0.052915026,3.055050463
+6,Destruction governance,6,request_destruction,requestEvidenceDestruction,requestEvidenceDestruction,actual_tx,actual_tx,3,3604,3604,3604,3604,0,0,0,0,0
+6,Destruction governance,6,request_destruction,requestEvidenceDestruction,requestEvidenceDestruction,succ,succ,3,3604,3604,3604,3604,0,0,0,0,0
+6,Destruction governance,6,request_destruction,requestEvidenceDestruction,requestEvidenceDestruction,fail,fail,3,0,0,0,0,0,0,0,0,
+7,Destruction governance,7,approve_destruction,approveEvidenceDestruction,approveEvidenceDestruction,send_rate_tps,sendRateTps,3,60.1,60.1,60.1,60.1,0,0,0,0,0
+7,Destruction governance,7,approve_destruction,approveEvidenceDestruction,approveEvidenceDestruction,throughput_tps,throughputTps,3,58.26666667,58.4,58,58.4,0.4,0.230940108,0.188561808,0.133333333,0.396350299
+7,Destruction governance,7,approve_destruction,approveEvidenceDestruction,approveEvidenceDestruction,throughput_send_ratio,throughputSendRatio,3,0.969495286,0.97171381,0.965058236,0.97171381,0.006655574,0.003842597,0.003137468,0.002218525,0.396350299
+7,Destruction governance,7,approve_destruction,approveEvidenceDestruction,approveEvidenceDestruction,avg_latency_sec,avgLatencySec,3,1.43,1.47,1.22,1.6,0.38,0.193132079,0.157691682,0.111504858,13.5057398
+7,Destruction governance,7,approve_destruction,approveEvidenceDestruction,approveEvidenceDestruction,min_latency_sec,minLatencySec,3,0.34,0.31,0.3,0.41,0.11,0.060827625,0.049665548,0.035118846,17.89047803
+7,Destruction governance,7,approve_destruction,approveEvidenceDestruction,approveEvidenceDestruction,max_latency_sec,maxLatencySec,3,2.676666667,2.77,2.31,2.95,0.64,0.330050501,0.269485106,0.190554746,12.33065384
+7,Destruction governance,7,approve_destruction,approveEvidenceDestruction,approveEvidenceDestruction,actual_tx,actual_tx,3,3604,3604,3604,3604,0,0,0,0,0
+7,Destruction governance,7,approve_destruction,approveEvidenceDestruction,approveEvidenceDestruction,succ,succ,3,3604,3604,3604,3604,0,0,0,0,0
+7,Destruction governance,7,approve_destruction,approveEvidenceDestruction,approveEvidenceDestruction,fail,fail,3,0,0,0,0,0,0,0,0,
+8,Destruction finalization,8,report_destroyed_20260703,reportEvidenceDestroyed,reportEvidenceDestroyed_20260703_batch,send_rate_tps,sendRateTps,3,20.1,20.1,20.1,20.1,0,0,0,0,0
+8,Destruction finalization,8,report_destroyed_20260703,reportEvidenceDestroyed,reportEvidenceDestroyed_20260703_batch,throughput_tps,throughputTps,3,19.9,19.9,19.8,20,0.2,0.1,0.081649658,0.057735027,0.502512563
+8,Destruction finalization,8,report_destroyed_20260703,reportEvidenceDestroyed,reportEvidenceDestroyed_20260703_batch,throughput_send_ratio,throughputSendRatio,3,0.990049751,0.990049751,0.985074627,0.995024876,0.009950249,0.004975124,0.004062172,0.002872389,0.502512563
+8,Destruction finalization,8,report_destroyed_20260703,reportEvidenceDestroyed,reportEvidenceDestroyed_20260703_batch,avg_latency_sec,avgLatencySec,3,1.433333333,1.32,1.32,1.66,0.34,0.196299092,0.160277537,0.113333333,13.69528546
+8,Destruction finalization,8,report_destroyed_20260703,reportEvidenceDestroyed,reportEvidenceDestroyed_20260703_batch,min_latency_sec,minLatencySec,3,0.343333333,0.3,0.24,0.49,0.25,0.130511813,0.106562449,0.07535103,38.01314942
+8,Destruction finalization,8,report_destroyed_20260703,reportEvidenceDestroyed,reportEvidenceDestroyed_20260703_batch,max_latency_sec,maxLatencySec,3,2.55,2.4,2.36,2.89,0.53,0.295127091,0.240970261,0.170391706,11.57361142
+8,Destruction finalization,8,report_destroyed_20260703,reportEvidenceDestroyed,reportEvidenceDestroyed_20260703_batch,actual_tx,actual_tx,3,1208,1208,1208,1208,0,0,0,0,0
+8,Destruction finalization,8,report_destroyed_20260703,reportEvidenceDestroyed,reportEvidenceDestroyed_20260703_batch,succ,succ,3,1208,1208,1208,1208,0,0,0,0,0
+8,Destruction finalization,8,report_destroyed_20260703,reportEvidenceDestroyed,reportEvidenceDestroyed_20260703_batch,fail,fail,3,0,0,0,0,0,0,0,0,
+9,Post-destruction audit query,9,get_evidence_commitment,getEvidenceCommitment,getEvidenceCommitment,send_rate_tps,sendRateTps,3,500.1,500.1,500.1,500.1,0,0,0,0,0
+9,Post-destruction audit query,9,get_evidence_commitment,getEvidenceCommitment,getEvidenceCommitment,throughput_tps,throughputTps,3,500,500,500,500,0,0,0,0,0
+9,Post-destruction audit query,9,get_evidence_commitment,getEvidenceCommitment,getEvidenceCommitment,throughput_send_ratio,throughputSendRatio,3,0.99980004,0.99980004,0.99980004,0.99980004,0,0,0,0,0
+9,Post-destruction audit query,9,get_evidence_commitment,getEvidenceCommitment,getEvidenceCommitment,avg_latency_sec,avgLatencySec,3,0.01,0.01,0.01,0.01,0,0,0,0,0
+9,Post-destruction audit query,9,get_evidence_commitment,getEvidenceCommitment,getEvidenceCommitment,min_latency_sec,minLatencySec,3,0.003333333,0,0,0.01,0.01,0.005773503,0.004714045,0.003333333,173.2050808
+9,Post-destruction audit query,9,get_evidence_commitment,getEvidenceCommitment,getEvidenceCommitment,max_latency_sec,maxLatencySec,3,0.116666667,0.12,0.08,0.15,0.07,0.035118846,0.028674418,0.020275875,30.10186787
+9,Post-destruction audit query,9,get_evidence_commitment,getEvidenceCommitment,getEvidenceCommitment,actual_tx,actual_tx,3,30004,30004,30004,30004,0,0,0,0,0
+9,Post-destruction audit query,9,get_evidence_commitment,getEvidenceCommitment,getEvidenceCommitment,succ,succ,3,30004,30004,30004,30004,0,0,0,0,0
+9,Post-destruction audit query,9,get_evidence_commitment,getEvidenceCommitment,getEvidenceCommitment,fail,fail,3,0,0,0,0,0,0,0,0,
+10,Post-destruction audit query,10,get_evidence_destruction_record,getEvidenceDestructionRecord,getEvidenceDestructionRecord,send_rate_tps,sendRateTps,3,500.0333333,500,500,500.1,0.1,0.057735027,0.047140452,0.033333333,0.011546236
+10,Post-destruction audit query,10,get_evidence_destruction_record,getEvidenceDestructionRecord,getEvidenceDestructionRecord,throughput_tps,throughputTps,3,499.9666667,500,499.9,500,0.1,0.057735027,0.047140452,0.033333333,0.011547775
+10,Post-destruction audit query,10,get_evidence_destruction_record,getEvidenceDestructionRecord,getEvidenceDestructionRecord,throughput_send_ratio,throughputSendRatio,3,0.99986668,0.99980004,0.9998,1,0.0002,0.000115459,9.43E-05,6.67E-05,0.011547391
+10,Post-destruction audit query,10,get_evidence_destruction_record,getEvidenceDestructionRecord,getEvidenceDestructionRecord,avg_latency_sec,avgLatencySec,3,0.01,0.01,0.01,0.01,0,0,0,0,0
+10,Post-destruction audit query,10,get_evidence_destruction_record,getEvidenceDestructionRecord,getEvidenceDestructionRecord,min_latency_sec,minLatencySec,3,0,0,0,0,0,0,0,0,
+10,Post-destruction audit query,10,get_evidence_destruction_record,getEvidenceDestructionRecord,getEvidenceDestructionRecord,max_latency_sec,maxLatencySec,3,0.106666667,0.1,0.05,0.17,0.12,0.060277138,0.049216077,0.034801022,56.50981663
+10,Post-destruction audit query,10,get_evidence_destruction_record,getEvidenceDestructionRecord,getEvidenceDestructionRecord,actual_tx,actual_tx,3,30004,30004,30004,30004,0,0,0,0,0
+10,Post-destruction audit query,10,get_evidence_destruction_record,getEvidenceDestructionRecord,getEvidenceDestructionRecord,succ,succ,3,30004,30004,30004,30004,0,0,0,0,0
+10,Post-destruction audit query,10,get_evidence_destruction_record,getEvidenceDestructionRecord,getEvidenceDestructionRecord,fail,fail,3,0,0,0,0,0,0,0,0,
+11,Post-destruction audit query,11,verify_historical_disclosure,verifyHistoricalDisclosure,verifyHistoricalDisclosure,send_rate_tps,sendRateTps,3,300.0333333,300,300,300.1,0.1,0.057735027,0.047140452,0.033333333,0.019242871
+11,Post-destruction audit query,11,verify_historical_disclosure,verifyHistoricalDisclosure,verifyHistoricalDisclosure,throughput_tps,throughputTps,3,300,300,300,300,0,0,0,0,0
+11,Post-destruction audit query,11,verify_historical_disclosure,verifyHistoricalDisclosure,verifyHistoricalDisclosure,throughput_send_ratio,throughputSendRatio,3,0.999888926,1,0.999666778,1,0.000333222,0.000192386,0.000157082,0.000111074,0.019240733
+11,Post-destruction audit query,11,verify_historical_disclosure,verifyHistoricalDisclosure,verifyHistoricalDisclosure,avg_latency_sec,avgLatencySec,3,0.01,0.01,0.01,0.01,0,0,0,0,0
+11,Post-destruction audit query,11,verify_historical_disclosure,verifyHistoricalDisclosure,verifyHistoricalDisclosure,min_latency_sec,minLatencySec,3,0.01,0.01,0.01,0.01,0,0,0,0,0
+11,Post-destruction audit query,11,verify_historical_disclosure,verifyHistoricalDisclosure,verifyHistoricalDisclosure,max_latency_sec,maxLatencySec,3,0.07,0.07,0.06,0.08,0.02,0.01,0.008164966,0.005773503,14.28571429
+11,Post-destruction audit query,11,verify_historical_disclosure,verifyHistoricalDisclosure,verifyHistoricalDisclosure,actual_tx,actual_tx,3,18004,18004,18004,18004,0,0,0,0,0
+11,Post-destruction audit query,11,verify_historical_disclosure,verifyHistoricalDisclosure,verifyHistoricalDisclosure,succ,succ,3,18004,18004,18004,18004,0,0,0,0,0
+11,Post-destruction audit query,11,verify_historical_disclosure,verifyHistoricalDisclosure,verifyHistoricalDisclosure,fail,fail,3,0,0,0,0,0,0,0,0,
+12,Post-destruction audit query,12,retrieve_evidence_readonly,retrieveEvidence,retrieveEvidenceReadOnly,send_rate_tps,sendRateTps,3,400.1,400.1,400.1,400.1,0,0,0,0,0
+12,Post-destruction audit query,12,retrieve_evidence_readonly,retrieveEvidence,retrieveEvidenceReadOnly,throughput_tps,throughputTps,3,400,400,400,400,0,0,0,0,0
+12,Post-destruction audit query,12,retrieve_evidence_readonly,retrieveEvidence,retrieveEvidenceReadOnly,throughput_send_ratio,throughputSendRatio,3,0.999750062,0.999750062,0.999750062,0.999750062,0,0,0,0,0
+12,Post-destruction audit query,12,retrieve_evidence_readonly,retrieveEvidence,retrieveEvidenceReadOnly,avg_latency_sec,avgLatencySec,3,0.01,0.01,0.01,0.01,0,0,0,0,0
+12,Post-destruction audit query,12,retrieve_evidence_readonly,retrieveEvidence,retrieveEvidenceReadOnly,min_latency_sec,minLatencySec,3,0,0,0,0,0,0,0,0,
+12,Post-destruction audit query,12,retrieve_evidence_readonly,retrieveEvidence,retrieveEvidenceReadOnly,max_latency_sec,maxLatencySec,3,0.126666667,0.1,0.09,0.19,0.1,0.055075705,0.044969125,0.031797973,43.48082011
+12,Post-destruction audit query,12,retrieve_evidence_readonly,retrieveEvidence,retrieveEvidenceReadOnly,actual_tx,actual_tx,3,24004,24004,24004,24004,0,0,0,0,0
+12,Post-destruction audit query,12,retrieve_evidence_readonly,retrieveEvidence,retrieveEvidenceReadOnly,succ,succ,3,24004,24004,24004,24004,0,0,0,0,0
+12,Post-destruction audit query,12,retrieve_evidence_readonly,retrieveEvidence,retrieveEvidenceReadOnly,fail,fail,3,0,0,0,0,0,0,0,0,
