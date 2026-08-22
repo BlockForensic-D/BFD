@@ -75,7 +75,7 @@ The repository should preserve the implementation and result files corresponding
 Repository:
 
 ```text
-https://github.com/BlockForensic-BFD/BFD
+https://github.com/BlockForensic-D/BFD
 ```
 
 Please cite the corresponding BlockForensic-D manuscript and the repository snapshot used for reproduction.
