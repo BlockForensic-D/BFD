@@ -1,0 +1,114 @@
+{
+  "timings": [
+    {
+      "conditionId": "EDGE_REAL_PCAP-contiguous-4096",
+      "metric": "semanticIndexMs",
+      "n": 60,
+      "meanMs": 210.72480975,
+      "sdMs": 5.206119639249048,
+      "unboundedN": null,
+      "halfWidth95Ms": 1.3448833114804206,
+      "precisionTargetMet": true
+    },
+    {
+      "conditionId": "EDGE_REAL_PCAP-contiguous-4096",
+      "metric": "semanticQueryMs",
+      "n": 60,
+      "meanMs": 2.1872130666666636,
+      "sdMs": 0.236919020196233,
+      "unboundedN": null,
+      "halfWidth95Ms": 0.061202672722320835,
+      "precisionTargetMet": true
+    },
+    {
+      "conditionId": "SWAT_REAL_PCAP-contiguous-4096",
+      "metric": "semanticIndexMs",
+      "n": 60,
+      "meanMs": 474.8665974,
+      "sdMs": 9.703807828065644,
+      "unboundedN": null,
+      "halfWidth95Ms": 2.506759373601527,
+      "precisionTargetMet": true
+    },
+    {
+      "conditionId": "SWAT_REAL_PCAP-contiguous-4096",
+      "metric": "semanticQueryMs",
+      "n": 60,
+      "meanMs": 3.3781192166666756,
+      "sdMs": 0.2730773063515822,
+      "unboundedN": null,
+      "halfWidth95Ms": 0.07054334850231062,
+      "precisionTargetMet": true
+    },
+    {
+      "conditionId": "SWAT_REAL_TIMESERIES-contiguous-4096",
+      "metric": "semanticIndexMs",
+      "n": 60,
+      "meanMs": 1222.5947265333334,
+      "sdMs": 19.956379466440858,
+      "unboundedN": null,
+      "halfWidth95Ms": 5.155279471421871,
+      "precisionTargetMet": true
+    },
+    {
+      "conditionId": "SWAT_REAL_TIMESERIES-contiguous-4096",
+      "metric": "semanticQueryMs",
+      "n": 60,
+      "meanMs": 1.2460245166666786,
+      "sdMs": 0.1959856072370756,
+      "unboundedN": null,
+      "halfWidth95Ms": 0.05062845088621876,
+      "precisionTargetMet": true
+    }
+  ],
+  "oracleAgreement": [
+    {
+      "label": "EDGE_REAL_PCAP",
+      "synthetic": false,
+      "sha256": "b7c2c4b77df03941194778695a7dbd0f5cac20940ede2a02f350681014bc9779",
+      "recordCount": 40206,
+      "casesChecked": 18,
+      "oracle": "independent Python parser and byte interval union"
+    },
+    {
+      "label": "SWAT_REAL_PCAP",
+      "synthetic": false,
+      "sha256": "c4cdf1c2c37910a91288916320591452a822c27cfef32d1d553748ec9998eef2",
+      "recordCount": 127828,
+      "casesChecked": 18,
+      "oracle": "independent Python parser and byte interval union"
+    },
+    {
+      "label": "SWAT_REAL_TIMESERIES",
+      "synthetic": false,
+      "sha256": "bd142df3e9a580b6c555dbff7fa62bf912c3646d2246d231a823473010073161",
+      "recordCount": 13201,
+      "casesChecked": 17,
+      "oracle": "independent Python parser and byte interval union"
+    },
+    {
+      "label": "synthetic_pcap",
+      "synthetic": true,
+      "sha256": "a41a16bc0e2bc8a7362f8017b1832b37ab86cba6a00b0a74248371ff1826829f",
+      "recordCount": 4000,
+      "casesChecked": 18,
+      "oracle": "independent Python parser and byte interval union"
+    },
+    {
+      "label": "synthetic_jsonl",
+      "synthetic": true,
+      "sha256": "9c475c7fec5345907da1d1b3e9ccea46193b4dfc1c95fe9520bbd59e377ef991",
+      "recordCount": 12000,
+      "casesChecked": 17,
+      "oracle": "independent Python parser and byte interval union"
+    },
+    {
+      "label": "synthetic_lines",
+      "synthetic": true,
+      "sha256": "955afe0328f55d554babdf5ffd077b6c49c23d54688e9f7fa9ae932bdbbb3a54",
+      "recordCount": 12000,
+      "casesChecked": 15,
+      "oracle": "independent Python parser and byte interval union"
+    }
+  ]
+}

@@ -1,0 +1,704 @@
+[
+  {
+    "conditionId": "EDGE_REAL_PCAP-contiguous-1024",
+    "dataset": "EDGE_REAL_PCAP",
+    "synthetic": false,
+    "z": 1024,
+    "scopeShape": "contiguous",
+    "totalBytes": 16776791,
+    "m": 16384,
+    "selectedBytes": 1445,
+    "disclosedBytes": 3072,
+    "excessBytes": 1627,
+    "proofJsonBytes": 3978,
+    "proofHashBytes": 1344,
+    "openingBytes": 96,
+    "disclosedChunkCount": 3,
+    "bundleSerializedBytes": 9361,
+    "estimates": [
+      {
+        "conditionId": "EDGE_REAL_PCAP-contiguous-1024",
+        "metric": "commitmentMs",
+        "n": 60,
+        "meanMs": 870.3724220166666,
+        "sdMs": 46.86834568220697,
+        "unboundedN": null,
+        "halfWidth95Ms": 12.107377531144799,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "EDGE_REAL_PCAP-contiguous-1024",
+        "metric": "auditMs",
+        "n": 60,
+        "meanMs": 991.6668498833334,
+        "sdMs": 51.930796024700626,
+        "unboundedN": null,
+        "halfWidth95Ms": 13.415147127811258,
+        "precisionTargetMet": true
+      }
+    ]
+  },
+  {
+    "conditionId": "EDGE_REAL_PCAP-contiguous-16384",
+    "dataset": "EDGE_REAL_PCAP",
+    "synthetic": false,
+    "z": 16384,
+    "scopeShape": "contiguous",
+    "totalBytes": 16776791,
+    "m": 1024,
+    "selectedBytes": 1445,
+    "disclosedBytes": 32768,
+    "excessBytes": 31323,
+    "proofJsonBytes": 1897,
+    "proofHashBytes": 640,
+    "openingBytes": 64,
+    "disclosedChunkCount": 2,
+    "bundleSerializedBytes": 46739,
+    "estimates": [
+      {
+        "conditionId": "EDGE_REAL_PCAP-contiguous-16384",
+        "metric": "commitmentMs",
+        "n": 60,
+        "meanMs": 166.30334145,
+        "sdMs": 5.284654973589579,
+        "unboundedN": null,
+        "halfWidth95Ms": 1.365171139620181,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "EDGE_REAL_PCAP-contiguous-16384",
+        "metric": "auditMs",
+        "n": 60,
+        "meanMs": 164.25929491666668,
+        "sdMs": 5.903616281544859,
+        "unboundedN": null,
+        "halfWidth95Ms": 1.5250658003662452,
+        "precisionTargetMet": true
+      }
+    ]
+  },
+  {
+    "conditionId": "EDGE_REAL_PCAP-contiguous-256",
+    "dataset": "EDGE_REAL_PCAP",
+    "synthetic": false,
+    "z": 256,
+    "scopeShape": "contiguous",
+    "totalBytes": 16776791,
+    "m": 65535,
+    "selectedBytes": 1445,
+    "disclosedBytes": 2048,
+    "excessBytes": 603,
+    "proofJsonBytes": 12107,
+    "proofHashBytes": 4096,
+    "openingBytes": 256,
+    "disclosedChunkCount": 8,
+    "bundleSerializedBytes": 16806,
+    "estimates": [
+      {
+        "conditionId": "EDGE_REAL_PCAP-contiguous-256",
+        "metric": "commitmentMs",
+        "n": 60,
+        "meanMs": 3050.060721683333,
+        "sdMs": 117.31175974244087,
+        "unboundedN": null,
+        "halfWidth95Ms": 30.304841004531134,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "EDGE_REAL_PCAP-contiguous-256",
+        "metric": "auditMs",
+        "n": 60,
+        "meanMs": 3642.1268807833335,
+        "sdMs": 143.10022058088947,
+        "unboundedN": null,
+        "halfWidth95Ms": 36.966706849665385,
+        "precisionTargetMet": true
+      }
+    ]
+  },
+  {
+    "conditionId": "EDGE_REAL_PCAP-contiguous-262144",
+    "dataset": "EDGE_REAL_PCAP",
+    "synthetic": false,
+    "z": 262144,
+    "scopeShape": "contiguous",
+    "totalBytes": 16776791,
+    "m": 64,
+    "selectedBytes": 1445,
+    "disclosedBytes": 524288,
+    "excessBytes": 522843,
+    "proofJsonBytes": 1140,
+    "proofHashBytes": 384,
+    "openingBytes": 64,
+    "disclosedChunkCount": 2,
+    "bundleSerializedBytes": 701342,
+    "estimates": [
+      {
+        "conditionId": "EDGE_REAL_PCAP-contiguous-262144",
+        "metric": "commitmentMs",
+        "n": 60,
+        "meanMs": 95.18150951666667,
+        "sdMs": 0.8440413200985761,
+        "unboundedN": null,
+        "halfWidth95Ms": 0.2180389933882149,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "EDGE_REAL_PCAP-contiguous-262144",
+        "metric": "auditMs",
+        "n": 60,
+        "meanMs": 84.58703315,
+        "sdMs": 1.3823446457260422,
+        "unboundedN": null,
+        "halfWidth95Ms": 0.3570974878747565,
+        "precisionTargetMet": true
+      }
+    ]
+  },
+  {
+    "conditionId": "EDGE_REAL_PCAP-contiguous-4096",
+    "dataset": "EDGE_REAL_PCAP",
+    "synthetic": false,
+    "z": 4096,
+    "scopeShape": "contiguous",
+    "totalBytes": 16776791,
+    "m": 4096,
+    "selectedBytes": 1445,
+    "disclosedBytes": 8192,
+    "excessBytes": 6747,
+    "proofJsonBytes": 2275,
+    "proofHashBytes": 768,
+    "openingBytes": 64,
+    "disclosedChunkCount": 2,
+    "bundleSerializedBytes": 14347,
+    "estimates": [
+      {
+        "conditionId": "EDGE_REAL_PCAP-contiguous-4096",
+        "metric": "commitmentMs",
+        "n": 60,
+        "meanMs": 325.2419912166667,
+        "sdMs": 13.8163858390783,
+        "unboundedN": null,
+        "halfWidth95Ms": 3.5691509276630984,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "EDGE_REAL_PCAP-contiguous-4096",
+        "metric": "auditMs",
+        "n": 60,
+        "meanMs": 336.37693595,
+        "sdMs": 16.564013861385757,
+        "unboundedN": null,
+        "halfWidth95Ms": 4.27893851024164,
+        "precisionTargetMet": true
+      }
+    ]
+  },
+  {
+    "conditionId": "EDGE_REAL_PCAP-contiguous-65536",
+    "dataset": "EDGE_REAL_PCAP",
+    "synthetic": false,
+    "z": 65536,
+    "scopeShape": "contiguous",
+    "totalBytes": 16776791,
+    "m": 256,
+    "selectedBytes": 1445,
+    "disclosedBytes": 131072,
+    "excessBytes": 129627,
+    "proofJsonBytes": 1518,
+    "proofHashBytes": 512,
+    "openingBytes": 64,
+    "disclosedChunkCount": 2,
+    "bundleSerializedBytes": 177430,
+    "estimates": [
+      {
+        "conditionId": "EDGE_REAL_PCAP-contiguous-65536",
+        "metric": "commitmentMs",
+        "n": 60,
+        "meanMs": 109.71780651666667,
+        "sdMs": 1.8046703329418354,
+        "unboundedN": null,
+        "halfWidth95Ms": 0.46619578144143065,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "EDGE_REAL_PCAP-contiguous-65536",
+        "metric": "auditMs",
+        "n": 60,
+        "meanMs": 98.95821406666667,
+        "sdMs": 1.9447655856837323,
+        "unboundedN": null,
+        "halfWidth95Ms": 0.5023862227846854,
+        "precisionTargetMet": true
+      }
+    ]
+  },
+  {
+    "conditionId": "SWAT_REAL_PCAP-contiguous-1024",
+    "dataset": "SWAT_REAL_PCAP",
+    "synthetic": false,
+    "z": 1024,
+    "scopeShape": "contiguous",
+    "totalBytes": 16777192,
+    "m": 16384,
+    "selectedBytes": 312,
+    "disclosedBytes": 2048,
+    "excessBytes": 1736,
+    "proofJsonBytes": 2654,
+    "proofHashBytes": 896,
+    "openingBytes": 64,
+    "disclosedChunkCount": 2,
+    "bundleSerializedBytes": 6535,
+    "estimates": [
+      {
+        "conditionId": "SWAT_REAL_PCAP-contiguous-1024",
+        "metric": "commitmentMs",
+        "n": 60,
+        "meanMs": 876.0355306166666,
+        "sdMs": 45.29624894219486,
+        "unboundedN": null,
+        "halfWidth95Ms": 11.701261879530607,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "SWAT_REAL_PCAP-contiguous-1024",
+        "metric": "auditMs",
+        "n": 60,
+        "meanMs": 994.8894779333334,
+        "sdMs": 53.37111883637778,
+        "unboundedN": null,
+        "halfWidth95Ms": 13.787221964118434,
+        "precisionTargetMet": true
+      }
+    ]
+  },
+  {
+    "conditionId": "SWAT_REAL_PCAP-contiguous-16384",
+    "dataset": "SWAT_REAL_PCAP",
+    "synthetic": false,
+    "z": 16384,
+    "scopeShape": "contiguous",
+    "totalBytes": 16777192,
+    "m": 1024,
+    "selectedBytes": 312,
+    "disclosedBytes": 32768,
+    "excessBytes": 32456,
+    "proofJsonBytes": 1896,
+    "proofHashBytes": 640,
+    "openingBytes": 64,
+    "disclosedChunkCount": 2,
+    "bundleSerializedBytes": 46738,
+    "estimates": [
+      {
+        "conditionId": "SWAT_REAL_PCAP-contiguous-16384",
+        "metric": "commitmentMs",
+        "n": 60,
+        "meanMs": 167.78910105,
+        "sdMs": 4.974892320468456,
+        "unboundedN": null,
+        "halfWidth95Ms": 1.285150961143724,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "SWAT_REAL_PCAP-contiguous-16384",
+        "metric": "auditMs",
+        "n": 60,
+        "meanMs": 163.3787907,
+        "sdMs": 7.22849350999318,
+        "unboundedN": null,
+        "halfWidth95Ms": 1.8673178801816057,
+        "precisionTargetMet": true
+      }
+    ]
+  },
+  {
+    "conditionId": "SWAT_REAL_PCAP-contiguous-256",
+    "dataset": "SWAT_REAL_PCAP",
+    "synthetic": false,
+    "z": 256,
+    "scopeShape": "contiguous",
+    "totalBytes": 16777192,
+    "m": 65536,
+    "selectedBytes": 312,
+    "disclosedBytes": 768,
+    "excessBytes": 456,
+    "proofJsonBytes": 4545,
+    "proofHashBytes": 1536,
+    "openingBytes": 96,
+    "disclosedChunkCount": 3,
+    "bundleSerializedBytes": 6854,
+    "estimates": [
+      {
+        "conditionId": "SWAT_REAL_PCAP-contiguous-256",
+        "metric": "commitmentMs",
+        "n": 60,
+        "meanMs": 3027.077758316667,
+        "sdMs": 110.22225259318836,
+        "unboundedN": null,
+        "halfWidth95Ms": 28.473427108513533,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "SWAT_REAL_PCAP-contiguous-256",
+        "metric": "auditMs",
+        "n": 60,
+        "meanMs": 3606.3018962333335,
+        "sdMs": 129.4262867472816,
+        "unboundedN": null,
+        "halfWidth95Ms": 33.43435517713269,
+        "precisionTargetMet": true
+      }
+    ]
+  },
+  {
+    "conditionId": "SWAT_REAL_PCAP-contiguous-262144",
+    "dataset": "SWAT_REAL_PCAP",
+    "synthetic": false,
+    "z": 262144,
+    "scopeShape": "contiguous",
+    "totalBytes": 16777192,
+    "m": 64,
+    "selectedBytes": 312,
+    "disclosedBytes": 524288,
+    "excessBytes": 523976,
+    "proofJsonBytes": 1139,
+    "proofHashBytes": 384,
+    "openingBytes": 64,
+    "disclosedChunkCount": 2,
+    "bundleSerializedBytes": 701341,
+    "estimates": [
+      {
+        "conditionId": "SWAT_REAL_PCAP-contiguous-262144",
+        "metric": "commitmentMs",
+        "n": 60,
+        "meanMs": 95.12857125,
+        "sdMs": 0.9703348782457827,
+        "unboundedN": null,
+        "halfWidth95Ms": 0.25066407895466186,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "SWAT_REAL_PCAP-contiguous-262144",
+        "metric": "auditMs",
+        "n": 60,
+        "meanMs": 84.3039105,
+        "sdMs": 1.5586310606152538,
+        "unboundedN": null,
+        "halfWidth95Ms": 0.4026370977672814,
+        "precisionTargetMet": true
+      }
+    ]
+  },
+  {
+    "conditionId": "SWAT_REAL_PCAP-contiguous-4096",
+    "dataset": "SWAT_REAL_PCAP",
+    "synthetic": false,
+    "z": 4096,
+    "scopeShape": "contiguous",
+    "totalBytes": 16777192,
+    "m": 4096,
+    "selectedBytes": 312,
+    "disclosedBytes": 8192,
+    "excessBytes": 7880,
+    "proofJsonBytes": 2275,
+    "proofHashBytes": 768,
+    "openingBytes": 64,
+    "disclosedChunkCount": 2,
+    "bundleSerializedBytes": 14347,
+    "estimates": [
+      {
+        "conditionId": "SWAT_REAL_PCAP-contiguous-4096",
+        "metric": "commitmentMs",
+        "n": 60,
+        "meanMs": 325.86324871666665,
+        "sdMs": 14.779535001195041,
+        "unboundedN": null,
+        "halfWidth95Ms": 3.817958739306858,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "SWAT_REAL_PCAP-contiguous-4096",
+        "metric": "auditMs",
+        "n": 60,
+        "meanMs": 339.08342251666664,
+        "sdMs": 16.530963704202257,
+        "unboundedN": null,
+        "halfWidth95Ms": 4.27040074931452,
+        "precisionTargetMet": true
+      }
+    ]
+  },
+  {
+    "conditionId": "SWAT_REAL_PCAP-contiguous-65536",
+    "dataset": "SWAT_REAL_PCAP",
+    "synthetic": false,
+    "z": 65536,
+    "scopeShape": "contiguous",
+    "totalBytes": 16777192,
+    "m": 256,
+    "selectedBytes": 312,
+    "disclosedBytes": 131072,
+    "excessBytes": 130760,
+    "proofJsonBytes": 1517,
+    "proofHashBytes": 512,
+    "openingBytes": 64,
+    "disclosedChunkCount": 2,
+    "bundleSerializedBytes": 177429,
+    "estimates": [
+      {
+        "conditionId": "SWAT_REAL_PCAP-contiguous-65536",
+        "metric": "commitmentMs",
+        "n": 60,
+        "meanMs": 109.41034808333333,
+        "sdMs": 1.620748416776553,
+        "unboundedN": null,
+        "halfWidth95Ms": 0.41868371241378366,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "SWAT_REAL_PCAP-contiguous-65536",
+        "metric": "auditMs",
+        "n": 60,
+        "meanMs": 98.38023353333334,
+        "sdMs": 1.7073363620184485,
+        "unboundedN": null,
+        "halfWidth95Ms": 0.4410517505305572,
+        "precisionTargetMet": true
+      }
+    ]
+  },
+  {
+    "conditionId": "SWAT_REAL_TIMESERIES-contiguous-1024",
+    "dataset": "SWAT_REAL_TIMESERIES",
+    "synthetic": false,
+    "z": 1024,
+    "scopeShape": "contiguous",
+    "totalBytes": 28661700,
+    "m": 27990,
+    "selectedBytes": 6501,
+    "disclosedBytes": 8192,
+    "excessBytes": 1691,
+    "proofJsonBytes": 11356,
+    "proofHashBytes": 3840,
+    "openingBytes": 256,
+    "disclosedChunkCount": 8,
+    "bundleSerializedBytes": 24252,
+    "estimates": [
+      {
+        "conditionId": "SWAT_REAL_TIMESERIES-contiguous-1024",
+        "metric": "commitmentMs",
+        "n": 60,
+        "meanMs": 1453.6609021,
+        "sdMs": 55.65773330983196,
+        "unboundedN": null,
+        "halfWidth95Ms": 14.377917118711865,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "SWAT_REAL_TIMESERIES-contiguous-1024",
+        "metric": "auditMs",
+        "n": 60,
+        "meanMs": 1679.0926792,
+        "sdMs": 68.3134001643751,
+        "unboundedN": null,
+        "halfWidth95Ms": 17.647222537668018,
+        "precisionTargetMet": true
+      }
+    ]
+  },
+  {
+    "conditionId": "SWAT_REAL_TIMESERIES-contiguous-16384",
+    "dataset": "SWAT_REAL_TIMESERIES",
+    "synthetic": false,
+    "z": 16384,
+    "scopeShape": "contiguous",
+    "totalBytes": 28661700,
+    "m": 1750,
+    "selectedBytes": 6501,
+    "disclosedBytes": 32768,
+    "excessBytes": 26267,
+    "proofJsonBytes": 2083,
+    "proofHashBytes": 704,
+    "openingBytes": 64,
+    "disclosedChunkCount": 2,
+    "bundleSerializedBytes": 46927,
+    "estimates": [
+      {
+        "conditionId": "SWAT_REAL_TIMESERIES-contiguous-16384",
+        "metric": "commitmentMs",
+        "n": 60,
+        "meanMs": 267.8746622666667,
+        "sdMs": 7.843614093500938,
+        "unboundedN": null,
+        "halfWidth95Ms": 2.0262203765958082,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "SWAT_REAL_TIMESERIES-contiguous-16384",
+        "metric": "auditMs",
+        "n": 60,
+        "meanMs": 260.71806505,
+        "sdMs": 7.592191624281414,
+        "unboundedN": null,
+        "halfWidth95Ms": 1.96127106570496,
+        "precisionTargetMet": true
+      }
+    ]
+  },
+  {
+    "conditionId": "SWAT_REAL_TIMESERIES-contiguous-256",
+    "dataset": "SWAT_REAL_TIMESERIES",
+    "synthetic": false,
+    "z": 256,
+    "scopeShape": "contiguous",
+    "totalBytes": 28661700,
+    "m": 111960,
+    "selectedBytes": 6501,
+    "disclosedBytes": 6656,
+    "excessBytes": 155,
+    "proofJsonBytes": 41824,
+    "proofHashBytes": 14144,
+    "openingBytes": 832,
+    "disclosedChunkCount": 26,
+    "bundleSerializedBytes": 55132,
+    "estimates": [
+      {
+        "conditionId": "SWAT_REAL_TIMESERIES-contiguous-256",
+        "metric": "commitmentMs",
+        "n": 60,
+        "meanMs": 5155.592170566667,
+        "sdMs": 140.181101411377,
+        "unboundedN": null,
+        "halfWidth95Ms": 36.212618406191545,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "SWAT_REAL_TIMESERIES-contiguous-256",
+        "metric": "auditMs",
+        "n": 60,
+        "meanMs": 6115.7039106,
+        "sdMs": 170.47989328756262,
+        "unboundedN": null,
+        "halfWidth95Ms": 44.039626307642365,
+        "precisionTargetMet": true
+      }
+    ]
+  },
+  {
+    "conditionId": "SWAT_REAL_TIMESERIES-contiguous-262144",
+    "dataset": "SWAT_REAL_TIMESERIES",
+    "synthetic": false,
+    "z": 262144,
+    "scopeShape": "contiguous",
+    "totalBytes": 28661700,
+    "m": 110,
+    "selectedBytes": 6501,
+    "disclosedBytes": 262144,
+    "excessBytes": 255643,
+    "proofJsonBytes": 664,
+    "proofHashBytes": 224,
+    "openingBytes": 32,
+    "disclosedChunkCount": 1,
+    "bundleSerializedBytes": 351206,
+    "estimates": [
+      {
+        "conditionId": "SWAT_REAL_TIMESERIES-contiguous-262144",
+        "metric": "commitmentMs",
+        "n": 60,
+        "meanMs": 152.36430485,
+        "sdMs": 1.956181847862126,
+        "unboundedN": null,
+        "halfWidth95Ms": 0.5053353560253924,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "SWAT_REAL_TIMESERIES-contiguous-262144",
+        "metric": "auditMs",
+        "n": 60,
+        "meanMs": 134.46320595,
+        "sdMs": 1.5954566812435755,
+        "unboundedN": null,
+        "halfWidth95Ms": 0.4121501643216034,
+        "precisionTargetMet": true
+      }
+    ]
+  },
+  {
+    "conditionId": "SWAT_REAL_TIMESERIES-contiguous-4096",
+    "dataset": "SWAT_REAL_TIMESERIES",
+    "synthetic": false,
+    "z": 4096,
+    "scopeShape": "contiguous",
+    "totalBytes": 28661700,
+    "m": 6998,
+    "selectedBytes": 6501,
+    "disclosedBytes": 12288,
+    "excessBytes": 5787,
+    "proofJsonBytes": 3691,
+    "proofHashBytes": 1248,
+    "openingBytes": 96,
+    "disclosedChunkCount": 3,
+    "bundleSerializedBytes": 21364,
+    "estimates": [
+      {
+        "conditionId": "SWAT_REAL_TIMESERIES-contiguous-4096",
+        "metric": "commitmentMs",
+        "n": 60,
+        "meanMs": 522.6472486,
+        "sdMs": 23.44103790192948,
+        "unboundedN": null,
+        "halfWidth95Ms": 6.055462198834972,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "SWAT_REAL_TIMESERIES-contiguous-4096",
+        "metric": "auditMs",
+        "n": 60,
+        "meanMs": 560.0910036166666,
+        "sdMs": 27.06292967484246,
+        "unboundedN": null,
+        "halfWidth95Ms": 6.991096056469776,
+        "precisionTargetMet": true
+      }
+    ]
+  },
+  {
+    "conditionId": "SWAT_REAL_TIMESERIES-contiguous-65536",
+    "dataset": "SWAT_REAL_TIMESERIES",
+    "synthetic": false,
+    "z": 65536,
+    "scopeShape": "contiguous",
+    "totalBytes": 28661700,
+    "m": 438,
+    "selectedBytes": 6501,
+    "disclosedBytes": 65536,
+    "excessBytes": 59035,
+    "proofJsonBytes": 853,
+    "proofHashBytes": 288,
+    "openingBytes": 32,
+    "disclosedChunkCount": 1,
+    "bundleSerializedBytes": 89250,
+    "estimates": [
+      {
+        "conditionId": "SWAT_REAL_TIMESERIES-contiguous-65536",
+        "metric": "commitmentMs",
+        "n": 60,
+        "meanMs": 176.23951285,
+        "sdMs": 2.5422618484714583,
+        "unboundedN": null,
+        "halfWidth95Ms": 0.6567358743825964,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "SWAT_REAL_TIMESERIES-contiguous-65536",
+        "metric": "auditMs",
+        "n": 60,
+        "meanMs": 165.49944055,
+        "sdMs": 3.3742869309013086,
+        "unboundedN": null,
+        "halfWidth95Ms": 0.8716707444261194,
+        "precisionTargetMet": true
+      }
+    ]
+  }
+]

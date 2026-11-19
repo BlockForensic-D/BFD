@@ -1,0 +1,49 @@
+{
+  "phaseCounts": {
+    "pilot": {
+      "attempted": 1800,
+      "success": 1799,
+      "failed": 1
+    },
+    "confirmation": {
+      "attempted": 8400,
+      "success": 8400,
+      "failed": 0
+    }
+  },
+  "blocksByArtifact": {
+    "EDGE_REAL_PCAP": 60,
+    "SWAT_REAL_PCAP": 40,
+    "SWAT_REAL_TIMESERIES": 40
+  },
+  "codeFingerprint": "a9b929b7e0590c569d85612e61d10bed1ef28fe80aea5c47638e2f48d1cb3862",
+  "correctness": {
+    "status": "PASS",
+    "assertions": 3806,
+    "workerInvocations": 4305,
+    "durationSeconds": 67.87110114842653,
+    "seed": 240411,
+    "coverage": [
+      "Merkle exhaustive nonempty subsets m=1..8",
+      "Go/Rust cross-verification and matching wire",
+      "Independent BFD leaf/root vectors through m=8192",
+      "100 seeded algebraic cases for each of KZG/SHPLONK and Pointproofs",
+      "Independent RFC9380 XMD field mapping and polynomial evaluation",
+      "Public Ethereum SRS/c-kzg 4096-point commitment and four single openings",
+      "B0/B1 CHUNK_SET FULL HASH_ONLY application verdicts",
+      "Mutated values, trailing proofs, scope bounds, duplicate indices, authority binding, normalized metadata/payload"
+    ],
+    "limitations": [
+      "No independent Pointproofs implementation cross-check",
+      "SHPLONK checked through algebraic/reference-value tests and upstream tests; c-kzg cross-check applies to single KZG only",
+      "Not timing evidence from the NUC"
+    ]
+  },
+  "timing": "proofGenerateMs and verifyBundleMs in the recorded confirmation campaign. Per-cell arithmetic mean and sample SD in Table 8.",
+  "profiles": {
+    "M1": "per-chunk Merkle paths",
+    "M2": "Merkle multiproof",
+    "P": "KZG with SHPLONK",
+    "V": "Pointproofs"
+  }
+}

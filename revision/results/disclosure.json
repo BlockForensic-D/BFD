@@ -1,0 +1,1094 @@
+[
+  {
+    "conditionId": "EDGE_REAL_PCAP-hash-only",
+    "dataset": "EDGE_REAL_PCAP",
+    "datasetSha256": "b7c2c4b77df03941194778695a7dbd0f5cac20940ede2a02f350681014bc9779",
+    "synthetic": false,
+    "mode": "HASH_ONLY",
+    "scopeShape": "hash-only",
+    "totalBytes": 16776791,
+    "z": 4096,
+    "m": 4096,
+    "selectedBytes": 0,
+    "disclosedBytes": 0,
+    "disclosedChunkCount": 0,
+    "proofHashBytes": 0,
+    "proofJsonBytes": 0,
+    "openingBytes": 0,
+    "bundleSerializedBytes": 880,
+    "contentChecked": false,
+    "estimates": [
+      {
+        "conditionId": "EDGE_REAL_PCAP-hash-only",
+        "metric": "commitmentMs",
+        "n": 60,
+        "meanMs": 327.34138765,
+        "sdMs": 13.601385470805416,
+        "halfWidth95Ms": 3.513610443139379,
+        "targetMs": 32.734138765000004,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "EDGE_REAL_PCAP-hash-only",
+        "metric": "auditMs",
+        "n": 60,
+        "meanMs": 336.9245973,
+        "sdMs": 19.07745279909571,
+        "halfWidth95Ms": 4.92822863724279,
+        "targetMs": 33.69245973,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "EDGE_REAL_PCAP-hash-only",
+        "metric": "buildMs",
+        "n": 60,
+        "meanMs": 0.5893967166666755,
+        "sdMs": 0.08485198014730422,
+        "halfWidth95Ms": 0.021919590780406648,
+        "targetMs": 0.1,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "EDGE_REAL_PCAP-hash-only",
+        "metric": "receiverMaterializeMs",
+        "n": 60,
+        "meanMs": 8.023840649999995,
+        "sdMs": 4.517524464549216,
+        "halfWidth95Ms": 1.16700031550814,
+        "targetMs": 0.8023840649999996,
+        "precisionTargetMet": false
+      },
+      {
+        "conditionId": "EDGE_REAL_PCAP-hash-only",
+        "metric": "verifyMs",
+        "n": 60,
+        "meanMs": 6.180765766666669,
+        "sdMs": 0.333418754753792,
+        "halfWidth95Ms": 0.08613119752807649,
+        "targetMs": 0.6180765766666669,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "EDGE_REAL_PCAP-hash-only",
+        "metric": "generationAndMaterializationMs",
+        "n": 60,
+        "meanMs": 8.613237366666672,
+        "sdMs": 4.503540910820562,
+        "halfWidth95Ms": 1.1633879805354523,
+        "targetMs": 0.8613237366666673,
+        "precisionTargetMet": false
+      },
+      {
+        "conditionId": "EDGE_REAL_PCAP-hash-only",
+        "metric": "localDisclosurePipelineMs",
+        "n": 60,
+        "meanMs": 14.79400313333334,
+        "sdMs": 4.507057997566346,
+        "halfWidth95Ms": 1.1642965403837071,
+        "targetMs": 1.4794003133333342,
+        "precisionTargetMet": true
+      }
+    ]
+  },
+  {
+    "conditionId": "EDGE_REAL_PCAP-full",
+    "dataset": "EDGE_REAL_PCAP",
+    "datasetSha256": "b7c2c4b77df03941194778695a7dbd0f5cac20940ede2a02f350681014bc9779",
+    "synthetic": false,
+    "mode": "FULL",
+    "scopeShape": "full",
+    "totalBytes": 16776791,
+    "z": 4096,
+    "m": 4096,
+    "selectedBytes": 16776791,
+    "disclosedBytes": 16776791,
+    "disclosedChunkCount": 4096,
+    "proofHashBytes": 1572864,
+    "proofJsonBytes": 4648960,
+    "openingBytes": 131072,
+    "bundleSerializedBytes": 27577564,
+    "contentChecked": true,
+    "estimates": [
+      {
+        "conditionId": "EDGE_REAL_PCAP-full",
+        "metric": "commitmentMs",
+        "n": 60,
+        "meanMs": 324.0539573333333,
+        "sdMs": 14.67909511804591,
+        "halfWidth95Ms": 3.7920123661893563,
+        "targetMs": 32.40539573333333,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "EDGE_REAL_PCAP-full",
+        "metric": "auditMs",
+        "n": 60,
+        "meanMs": 335.64419523333333,
+        "sdMs": 15.910599941064559,
+        "halfWidth95Ms": 4.110143795978075,
+        "targetMs": 33.564419523333335,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "EDGE_REAL_PCAP-full",
+        "metric": "buildMs",
+        "n": 60,
+        "meanMs": 1031.61450915,
+        "sdMs": 12.892756262435942,
+        "halfWidth95Ms": 3.330552107487846,
+        "targetMs": 103.161450915,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "EDGE_REAL_PCAP-full",
+        "metric": "receiverMaterializeMs",
+        "n": 60,
+        "meanMs": 1220.3359309166667,
+        "sdMs": 119.04347949047853,
+        "halfWidth95Ms": 30.752191651592497,
+        "targetMs": 122.03359309166667,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "EDGE_REAL_PCAP-full",
+        "metric": "verifyMs",
+        "n": 60,
+        "meanMs": 1431.7989375333334,
+        "sdMs": 17.63118580949573,
+        "halfWidth95Ms": 4.55461825695222,
+        "targetMs": 143.17989375333335,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "EDGE_REAL_PCAP-full",
+        "metric": "generationAndMaterializationMs",
+        "n": 60,
+        "meanMs": 2251.9504400666665,
+        "sdMs": 122.54037299272166,
+        "halfWidth95Ms": 31.655535031897422,
+        "targetMs": 225.19504400666665,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "EDGE_REAL_PCAP-full",
+        "metric": "localDisclosurePipelineMs",
+        "n": 60,
+        "meanMs": 3683.7493776,
+        "sdMs": 127.86331472859247,
+        "halfWidth95Ms": 33.030596690985206,
+        "targetMs": 368.37493776,
+        "precisionTargetMet": true
+      }
+    ]
+  },
+  {
+    "conditionId": "EDGE_REAL_PCAP-targeted8",
+    "dataset": "EDGE_REAL_PCAP",
+    "datasetSha256": "b7c2c4b77df03941194778695a7dbd0f5cac20940ede2a02f350681014bc9779",
+    "synthetic": false,
+    "mode": "CHUNK_SET",
+    "scopeShape": "targeted8",
+    "totalBytes": 16776791,
+    "z": 4096,
+    "m": 4096,
+    "selectedBytes": 32768,
+    "disclosedBytes": 32768,
+    "disclosedChunkCount": 8,
+    "proofHashBytes": 3072,
+    "proofJsonBytes": 9116,
+    "openingBytes": 256,
+    "bundleSerializedBytes": 54755,
+    "contentChecked": true,
+    "estimates": [
+      {
+        "conditionId": "EDGE_REAL_PCAP-targeted8",
+        "metric": "commitmentMs",
+        "n": 60,
+        "meanMs": 325.1088034,
+        "sdMs": 13.443673221295573,
+        "halfWidth95Ms": 3.472869048957277,
+        "targetMs": 32.51088034,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "EDGE_REAL_PCAP-targeted8",
+        "metric": "auditMs",
+        "n": 60,
+        "meanMs": 341.90288135000003,
+        "sdMs": 15.294240049353306,
+        "halfWidth95Ms": 3.950921152307153,
+        "targetMs": 34.190288135,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "EDGE_REAL_PCAP-targeted8",
+        "metric": "buildMs",
+        "n": 60,
+        "meanMs": 3.529523499999999,
+        "sdMs": 0.2680199259920071,
+        "halfWidth95Ms": 0.06923688862111155,
+        "targetMs": 0.3529523499999999,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "EDGE_REAL_PCAP-targeted8",
+        "metric": "receiverMaterializeMs",
+        "n": 60,
+        "meanMs": 15.189893799999997,
+        "sdMs": 27.72943792717171,
+        "halfWidth95Ms": 7.163273395377586,
+        "targetMs": 1.5189893799999998,
+        "precisionTargetMet": false
+      },
+      {
+        "conditionId": "EDGE_REAL_PCAP-targeted8",
+        "metric": "verifyMs",
+        "n": 60,
+        "meanMs": 15.757052066666677,
+        "sdMs": 1.415577946860999,
+        "halfWidth95Ms": 0.3656825599013098,
+        "targetMs": 1.575705206666668,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "EDGE_REAL_PCAP-targeted8",
+        "metric": "generationAndMaterializationMs",
+        "n": 60,
+        "meanMs": 18.719417299999996,
+        "sdMs": 27.7089721783403,
+        "halfWidth95Ms": 7.15798653184629,
+        "targetMs": 1.8719417299999996,
+        "precisionTargetMet": false
+      },
+      {
+        "conditionId": "EDGE_REAL_PCAP-targeted8",
+        "metric": "localDisclosurePipelineMs",
+        "n": 60,
+        "meanMs": 34.47646936666667,
+        "sdMs": 27.648016774534437,
+        "halfWidth95Ms": 7.142240081321983,
+        "targetMs": 3.447646936666667,
+        "precisionTargetMet": false
+      }
+    ]
+  },
+  {
+    "conditionId": "EDGE_REAL_PCAP-broad64",
+    "dataset": "EDGE_REAL_PCAP",
+    "datasetSha256": "b7c2c4b77df03941194778695a7dbd0f5cac20940ede2a02f350681014bc9779",
+    "synthetic": false,
+    "mode": "CHUNK_SET",
+    "scopeShape": "broad64",
+    "totalBytes": 16776791,
+    "z": 4096,
+    "m": 4096,
+    "selectedBytes": 262144,
+    "disclosedBytes": 262144,
+    "disclosedChunkCount": 64,
+    "proofHashBytes": 24576,
+    "proofJsonBytes": 72832,
+    "openingBytes": 2048,
+    "bundleSerializedBytes": 431845,
+    "contentChecked": true,
+    "estimates": [
+      {
+        "conditionId": "EDGE_REAL_PCAP-broad64",
+        "metric": "commitmentMs",
+        "n": 60,
+        "meanMs": 320.40458963333333,
+        "sdMs": 13.569023298764067,
+        "halfWidth95Ms": 3.505250407620113,
+        "targetMs": 32.040458963333336,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "EDGE_REAL_PCAP-broad64",
+        "metric": "auditMs",
+        "n": 60,
+        "meanMs": 339.957616,
+        "sdMs": 15.22565639512055,
+        "halfWidth95Ms": 3.933204115740686,
+        "targetMs": 33.9957616,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "EDGE_REAL_PCAP-broad64",
+        "metric": "buildMs",
+        "n": 60,
+        "meanMs": 20.249491200000005,
+        "sdMs": 1.161467029418096,
+        "halfWidth95Ms": 0.30003874919102913,
+        "targetMs": 2.0249491200000005,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "EDGE_REAL_PCAP-broad64",
+        "metric": "receiverMaterializeMs",
+        "n": 60,
+        "meanMs": 34.4959295,
+        "sdMs": 31.34186855499579,
+        "halfWidth95Ms": 8.096463180071456,
+        "targetMs": 3.4495929500000004,
+        "precisionTargetMet": false
+      },
+      {
+        "conditionId": "EDGE_REAL_PCAP-broad64",
+        "metric": "verifyMs",
+        "n": 60,
+        "meanMs": 54.69120815000001,
+        "sdMs": 5.016268427902673,
+        "halfWidth95Ms": 1.2958395430892449,
+        "targetMs": 5.469120815000001,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "EDGE_REAL_PCAP-broad64",
+        "metric": "generationAndMaterializationMs",
+        "n": 60,
+        "meanMs": 54.745420700000004,
+        "sdMs": 31.209876849460365,
+        "halfWidth95Ms": 8.062366106948097,
+        "targetMs": 5.474542070000001,
+        "precisionTargetMet": false
+      },
+      {
+        "conditionId": "EDGE_REAL_PCAP-broad64",
+        "metric": "localDisclosurePipelineMs",
+        "n": 60,
+        "meanMs": 109.43662885,
+        "sdMs": 32.33245117859069,
+        "halfWidth95Ms": 8.352357806286275,
+        "targetMs": 10.943662885000002,
+        "precisionTargetMet": true
+      }
+    ]
+  },
+  {
+    "conditionId": "SWAT_REAL_PCAP-hash-only",
+    "dataset": "SWAT_REAL_PCAP",
+    "datasetSha256": "c4cdf1c2c37910a91288916320591452a822c27cfef32d1d553748ec9998eef2",
+    "synthetic": false,
+    "mode": "HASH_ONLY",
+    "scopeShape": "hash-only",
+    "totalBytes": 16777192,
+    "z": 4096,
+    "m": 4096,
+    "selectedBytes": 0,
+    "disclosedBytes": 0,
+    "disclosedChunkCount": 0,
+    "proofHashBytes": 0,
+    "proofJsonBytes": 0,
+    "openingBytes": 0,
+    "bundleSerializedBytes": 880,
+    "contentChecked": false,
+    "estimates": [
+      {
+        "conditionId": "SWAT_REAL_PCAP-hash-only",
+        "metric": "commitmentMs",
+        "n": 60,
+        "meanMs": 328.69140441666667,
+        "sdMs": 13.241833540594671,
+        "halfWidth95Ms": 3.420728330537611,
+        "targetMs": 32.869140441666666,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "SWAT_REAL_PCAP-hash-only",
+        "metric": "auditMs",
+        "n": 60,
+        "meanMs": 336.4448040666667,
+        "sdMs": 15.188323583737267,
+        "halfWidth95Ms": 3.923560027921132,
+        "targetMs": 33.644480406666666,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "SWAT_REAL_PCAP-hash-only",
+        "metric": "buildMs",
+        "n": 60,
+        "meanMs": 0.5608098166666651,
+        "sdMs": 0.0712980299862182,
+        "halfWidth95Ms": 0.018418234177139788,
+        "targetMs": 0.1,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "SWAT_REAL_PCAP-hash-only",
+        "metric": "receiverMaterializeMs",
+        "n": 60,
+        "meanMs": 7.398106866666669,
+        "sdMs": 1.3178465741803516,
+        "halfWidth95Ms": 0.34043586923070596,
+        "targetMs": 0.7398106866666669,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "SWAT_REAL_PCAP-hash-only",
+        "metric": "verifyMs",
+        "n": 60,
+        "meanMs": 6.145754750000001,
+        "sdMs": 0.3047675709864373,
+        "halfWidth95Ms": 0.07872981193325136,
+        "targetMs": 0.6145754750000001,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "SWAT_REAL_PCAP-hash-only",
+        "metric": "generationAndMaterializationMs",
+        "n": 60,
+        "meanMs": 7.958916683333334,
+        "sdMs": 1.3419723772730476,
+        "halfWidth95Ms": 0.3466682250357504,
+        "targetMs": 0.7958916683333335,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "SWAT_REAL_PCAP-hash-only",
+        "metric": "localDisclosurePipelineMs",
+        "n": 60,
+        "meanMs": 14.104671433333335,
+        "sdMs": 1.4082248372904578,
+        "halfWidth95Ms": 0.3637830502791425,
+        "targetMs": 1.4104671433333336,
+        "precisionTargetMet": true
+      }
+    ]
+  },
+  {
+    "conditionId": "SWAT_REAL_PCAP-full",
+    "dataset": "SWAT_REAL_PCAP",
+    "datasetSha256": "c4cdf1c2c37910a91288916320591452a822c27cfef32d1d553748ec9998eef2",
+    "synthetic": false,
+    "mode": "FULL",
+    "scopeShape": "full",
+    "totalBytes": 16777192,
+    "z": 4096,
+    "m": 4096,
+    "selectedBytes": 16777192,
+    "disclosedBytes": 16777192,
+    "disclosedChunkCount": 4096,
+    "proofHashBytes": 1572864,
+    "proofJsonBytes": 4648960,
+    "openingBytes": 131072,
+    "bundleSerializedBytes": 27578100,
+    "contentChecked": true,
+    "estimates": [
+      {
+        "conditionId": "SWAT_REAL_PCAP-full",
+        "metric": "commitmentMs",
+        "n": 60,
+        "meanMs": 325.74739275,
+        "sdMs": 15.472892398378132,
+        "halfWidth95Ms": 3.9970719477957712,
+        "targetMs": 32.574739275000006,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "SWAT_REAL_PCAP-full",
+        "metric": "auditMs",
+        "n": 60,
+        "meanMs": 336.82479498333333,
+        "sdMs": 16.4653325994844,
+        "halfWidth95Ms": 4.253446437165482,
+        "targetMs": 33.682479498333336,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "SWAT_REAL_PCAP-full",
+        "metric": "buildMs",
+        "n": 60,
+        "meanMs": 1023.0403163,
+        "sdMs": 20.230182460807846,
+        "halfWidth95Ms": 5.226010285016974,
+        "targetMs": 102.30403163,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "SWAT_REAL_PCAP-full",
+        "metric": "receiverMaterializeMs",
+        "n": 60,
+        "meanMs": 1207.3641428833334,
+        "sdMs": 115.89071062617563,
+        "halfWidth95Ms": 29.93774509170367,
+        "targetMs": 120.73641428833335,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "SWAT_REAL_PCAP-full",
+        "metric": "verifyMs",
+        "n": 60,
+        "meanMs": 1422.8255491,
+        "sdMs": 26.01183638629669,
+        "halfWidth95Ms": 6.719569867959405,
+        "targetMs": 142.28255491000002,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "SWAT_REAL_PCAP-full",
+        "metric": "generationAndMaterializationMs",
+        "n": 60,
+        "meanMs": 2230.4044591833335,
+        "sdMs": 123.89109955033894,
+        "halfWidth95Ms": 32.004464701515026,
+        "targetMs": 223.04044591833338,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "SWAT_REAL_PCAP-full",
+        "metric": "localDisclosurePipelineMs",
+        "n": 60,
+        "meanMs": 3653.2300082833335,
+        "sdMs": 130.40468418138184,
+        "halfWidth95Ms": 33.687102035118166,
+        "targetMs": 365.32300082833336,
+        "precisionTargetMet": true
+      }
+    ]
+  },
+  {
+    "conditionId": "SWAT_REAL_PCAP-targeted8",
+    "dataset": "SWAT_REAL_PCAP",
+    "datasetSha256": "c4cdf1c2c37910a91288916320591452a822c27cfef32d1d553748ec9998eef2",
+    "synthetic": false,
+    "mode": "CHUNK_SET",
+    "scopeShape": "targeted8",
+    "totalBytes": 16777192,
+    "z": 4096,
+    "m": 4096,
+    "selectedBytes": 32768,
+    "disclosedBytes": 32768,
+    "disclosedChunkCount": 8,
+    "proofHashBytes": 3072,
+    "proofJsonBytes": 9116,
+    "openingBytes": 256,
+    "bundleSerializedBytes": 54755,
+    "contentChecked": true,
+    "estimates": [
+      {
+        "conditionId": "SWAT_REAL_PCAP-targeted8",
+        "metric": "commitmentMs",
+        "n": 60,
+        "meanMs": 330.2233735666667,
+        "sdMs": 14.696834636888171,
+        "halfWidth95Ms": 3.796594969836185,
+        "targetMs": 33.02233735666667,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "SWAT_REAL_PCAP-targeted8",
+        "metric": "auditMs",
+        "n": 60,
+        "meanMs": 338.70299035,
+        "sdMs": 13.755071883154539,
+        "halfWidth95Ms": 3.553311853305098,
+        "targetMs": 33.870299035,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "SWAT_REAL_PCAP-targeted8",
+        "metric": "buildMs",
+        "n": 60,
+        "meanMs": 3.5481218166666624,
+        "sdMs": 0.34234108579332667,
+        "halfWidth95Ms": 0.088436080040593,
+        "targetMs": 0.3548121816666663,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "SWAT_REAL_PCAP-targeted8",
+        "metric": "receiverMaterializeMs",
+        "n": 60,
+        "meanMs": 11.84397373333333,
+        "sdMs": 3.424560191144508,
+        "halfWidth95Ms": 0.8846577046575103,
+        "targetMs": 1.184397373333333,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "SWAT_REAL_PCAP-targeted8",
+        "metric": "verifyMs",
+        "n": 60,
+        "meanMs": 15.6129012,
+        "sdMs": 1.4001304910577337,
+        "halfWidth95Ms": 0.36169205892280376,
+        "targetMs": 1.56129012,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "SWAT_REAL_PCAP-targeted8",
+        "metric": "generationAndMaterializationMs",
+        "n": 60,
+        "meanMs": 15.392095549999992,
+        "sdMs": 3.404504108509797,
+        "halfWidth95Ms": 0.8794766691266046,
+        "targetMs": 1.5392095549999993,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "SWAT_REAL_PCAP-targeted8",
+        "metric": "localDisclosurePipelineMs",
+        "n": 60,
+        "meanMs": 31.00499674999999,
+        "sdMs": 3.945745989605734,
+        "halfWidth95Ms": 1.0192942729850498,
+        "targetMs": 3.100499674999999,
+        "precisionTargetMet": true
+      }
+    ]
+  },
+  {
+    "conditionId": "SWAT_REAL_PCAP-broad64",
+    "dataset": "SWAT_REAL_PCAP",
+    "datasetSha256": "c4cdf1c2c37910a91288916320591452a822c27cfef32d1d553748ec9998eef2",
+    "synthetic": false,
+    "mode": "CHUNK_SET",
+    "scopeShape": "broad64",
+    "totalBytes": 16777192,
+    "z": 4096,
+    "m": 4096,
+    "selectedBytes": 262144,
+    "disclosedBytes": 262144,
+    "disclosedChunkCount": 64,
+    "proofHashBytes": 24576,
+    "proofJsonBytes": 72832,
+    "openingBytes": 2048,
+    "bundleSerializedBytes": 431845,
+    "contentChecked": true,
+    "estimates": [
+      {
+        "conditionId": "SWAT_REAL_PCAP-broad64",
+        "metric": "commitmentMs",
+        "n": 60,
+        "meanMs": 328.52773771666665,
+        "sdMs": 13.804920636605246,
+        "halfWidth95Ms": 3.5661891518036835,
+        "targetMs": 32.85277377166667,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "SWAT_REAL_PCAP-broad64",
+        "metric": "auditMs",
+        "n": 60,
+        "meanMs": 336.9321081,
+        "sdMs": 17.257221765671606,
+        "halfWidth95Ms": 4.45801310062021,
+        "targetMs": 33.693210810000004,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "SWAT_REAL_PCAP-broad64",
+        "metric": "buildMs",
+        "n": 60,
+        "meanMs": 20.394922966666666,
+        "sdMs": 1.2388656295524272,
+        "halfWidth95Ms": 0.32003292774732967,
+        "targetMs": 2.039492296666667,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "SWAT_REAL_PCAP-broad64",
+        "metric": "receiverMaterializeMs",
+        "n": 60,
+        "meanMs": 30.68685750000001,
+        "sdMs": 4.201597486959659,
+        "halfWidth95Ms": 1.085387723165193,
+        "targetMs": 3.068685750000001,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "SWAT_REAL_PCAP-broad64",
+        "metric": "verifyMs",
+        "n": 60,
+        "meanMs": 55.56454003333334,
+        "sdMs": 4.024437417524685,
+        "halfWidth95Ms": 1.0396224243719105,
+        "targetMs": 5.556454003333334,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "SWAT_REAL_PCAP-broad64",
+        "metric": "generationAndMaterializationMs",
+        "n": 60,
+        "meanMs": 51.08178046666667,
+        "sdMs": 4.506828953560737,
+        "halfWidth95Ms": 1.1642373720429693,
+        "targetMs": 5.1081780466666675,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "SWAT_REAL_PCAP-broad64",
+        "metric": "localDisclosurePipelineMs",
+        "n": 60,
+        "meanMs": 106.64632050000002,
+        "sdMs": 5.836079637665241,
+        "halfWidth95Ms": 1.5076192352542312,
+        "targetMs": 10.664632050000002,
+        "precisionTargetMet": true
+      }
+    ]
+  },
+  {
+    "conditionId": "SWAT_REAL_TIMESERIES-hash-only",
+    "dataset": "SWAT_REAL_TIMESERIES",
+    "datasetSha256": "bd142df3e9a580b6c555dbff7fa62bf912c3646d2246d231a823473010073161",
+    "synthetic": false,
+    "mode": "HASH_ONLY",
+    "scopeShape": "hash-only",
+    "totalBytes": 28661700,
+    "z": 4096,
+    "m": 6998,
+    "selectedBytes": 0,
+    "disclosedBytes": 0,
+    "disclosedChunkCount": 0,
+    "proofHashBytes": 0,
+    "proofJsonBytes": 0,
+    "openingBytes": 0,
+    "bundleSerializedBytes": 880,
+    "contentChecked": false,
+    "estimates": [
+      {
+        "conditionId": "SWAT_REAL_TIMESERIES-hash-only",
+        "metric": "commitmentMs",
+        "n": 60,
+        "meanMs": 521.1352206333333,
+        "sdMs": 22.44102415143712,
+        "halfWidth95Ms": 5.797131254200339,
+        "targetMs": 52.113522063333335,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "SWAT_REAL_TIMESERIES-hash-only",
+        "metric": "auditMs",
+        "n": 60,
+        "meanMs": 560.40351315,
+        "sdMs": 20.970031675386117,
+        "halfWidth95Ms": 5.417133603466439,
+        "targetMs": 56.040351315,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "SWAT_REAL_TIMESERIES-hash-only",
+        "metric": "buildMs",
+        "n": 60,
+        "meanMs": 0.575559966666655,
+        "sdMs": 0.06672077373726298,
+        "halfWidth95Ms": 0.017235803505516328,
+        "targetMs": 0.1,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "SWAT_REAL_TIMESERIES-hash-only",
+        "metric": "receiverMaterializeMs",
+        "n": 60,
+        "meanMs": 8.736763800000002,
+        "sdMs": 6.466091911043131,
+        "halfWidth95Ms": 1.67036866308259,
+        "targetMs": 0.8736763800000003,
+        "precisionTargetMet": false
+      },
+      {
+        "conditionId": "SWAT_REAL_TIMESERIES-hash-only",
+        "metric": "verifyMs",
+        "n": 60,
+        "meanMs": 6.107958550000008,
+        "sdMs": 0.2406715823247247,
+        "halfWidth95Ms": 0.06217206231219009,
+        "targetMs": 0.6107958550000009,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "SWAT_REAL_TIMESERIES-hash-only",
+        "metric": "generationAndMaterializationMs",
+        "n": 60,
+        "meanMs": 9.312323766666657,
+        "sdMs": 6.461351950055364,
+        "halfWidth95Ms": 1.6691442013200408,
+        "targetMs": 0.9312323766666657,
+        "precisionTargetMet": false
+      },
+      {
+        "conditionId": "SWAT_REAL_TIMESERIES-hash-only",
+        "metric": "localDisclosurePipelineMs",
+        "n": 60,
+        "meanMs": 15.420282316666665,
+        "sdMs": 6.4886100766230985,
+        "halfWidth95Ms": 1.6761857220808767,
+        "targetMs": 1.5420282316666665,
+        "precisionTargetMet": false
+      }
+    ]
+  },
+  {
+    "conditionId": "SWAT_REAL_TIMESERIES-full",
+    "dataset": "SWAT_REAL_TIMESERIES",
+    "datasetSha256": "bd142df3e9a580b6c555dbff7fa62bf912c3646d2246d231a823473010073161",
+    "synthetic": false,
+    "mode": "FULL",
+    "scopeShape": "full",
+    "totalBytes": 28661700,
+    "z": 4096,
+    "m": 6998,
+    "selectedBytes": 28661700,
+    "disclosedBytes": 28661700,
+    "disclosedChunkCount": 6998,
+    "proofHashBytes": 2911168,
+    "proofJsonBytes": 8605917,
+    "openingBytes": 223936,
+    "bundleSerializedBytes": 47777673,
+    "contentChecked": true,
+    "estimates": [
+      {
+        "conditionId": "SWAT_REAL_TIMESERIES-full",
+        "metric": "commitmentMs",
+        "n": 60,
+        "meanMs": 520.4829347166667,
+        "sdMs": 22.468755705319715,
+        "halfWidth95Ms": 5.804295074204964,
+        "targetMs": 52.048293471666675,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "SWAT_REAL_TIMESERIES-full",
+        "metric": "auditMs",
+        "n": 60,
+        "meanMs": 559.2817108,
+        "sdMs": 25.489453139680936,
+        "halfWidth95Ms": 6.584623965972445,
+        "targetMs": 55.928171080000006,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "SWAT_REAL_TIMESERIES-full",
+        "metric": "buildMs",
+        "n": 60,
+        "meanMs": 1739.9389867833333,
+        "sdMs": 24.214341692836808,
+        "halfWidth95Ms": 6.255227750754909,
+        "targetMs": 173.99389867833335,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "SWAT_REAL_TIMESERIES-full",
+        "metric": "receiverMaterializeMs",
+        "n": 60,
+        "meanMs": 2061.6383928833334,
+        "sdMs": 222.702807913201,
+        "halfWidth95Ms": 57.53023567193632,
+        "targetMs": 206.16383928833335,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "SWAT_REAL_TIMESERIES-full",
+        "metric": "verifyMs",
+        "n": 60,
+        "meanMs": 2388.03880015,
+        "sdMs": 23.456864678971527,
+        "halfWidth95Ms": 6.059550688880015,
+        "targetMs": 238.803880015,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "SWAT_REAL_TIMESERIES-full",
+        "metric": "generationAndMaterializationMs",
+        "n": 60,
+        "meanMs": 3801.5773796666667,
+        "sdMs": 225.1625386423643,
+        "halfWidth95Ms": 58.16565149746745,
+        "targetMs": 380.1577379666667,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "SWAT_REAL_TIMESERIES-full",
+        "metric": "localDisclosurePipelineMs",
+        "n": 60,
+        "meanMs": 6189.616179816667,
+        "sdMs": 225.8197457390888,
+        "halfWidth95Ms": 58.335426093100594,
+        "targetMs": 618.9616179816667,
+        "precisionTargetMet": true
+      }
+    ]
+  },
+  {
+    "conditionId": "SWAT_REAL_TIMESERIES-targeted8",
+    "dataset": "SWAT_REAL_TIMESERIES",
+    "datasetSha256": "bd142df3e9a580b6c555dbff7fa62bf912c3646d2246d231a823473010073161",
+    "synthetic": false,
+    "mode": "CHUNK_SET",
+    "scopeShape": "targeted8",
+    "totalBytes": 28661700,
+    "z": 4096,
+    "m": 6998,
+    "selectedBytes": 32768,
+    "disclosedBytes": 32768,
+    "disclosedChunkCount": 8,
+    "proofHashBytes": 3328,
+    "proofJsonBytes": 9876,
+    "openingBytes": 256,
+    "bundleSerializedBytes": 55515,
+    "contentChecked": true,
+    "estimates": [
+      {
+        "conditionId": "SWAT_REAL_TIMESERIES-targeted8",
+        "metric": "commitmentMs",
+        "n": 60,
+        "meanMs": 520.4581287666667,
+        "sdMs": 21.20826812404175,
+        "halfWidth95Ms": 5.478676604047491,
+        "targetMs": 52.04581287666667,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "SWAT_REAL_TIMESERIES-targeted8",
+        "metric": "auditMs",
+        "n": 60,
+        "meanMs": 558.2454536833334,
+        "sdMs": 20.550574094571814,
+        "halfWidth95Ms": 5.308776220347892,
+        "targetMs": 55.82454536833334,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "SWAT_REAL_TIMESERIES-targeted8",
+        "metric": "buildMs",
+        "n": 60,
+        "meanMs": 3.5686833833333176,
+        "sdMs": 0.26333609039227635,
+        "halfWidth95Ms": 0.06802692558370728,
+        "targetMs": 0.35686833833333176,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "SWAT_REAL_TIMESERIES-targeted8",
+        "metric": "receiverMaterializeMs",
+        "n": 60,
+        "meanMs": 12.973576599999998,
+        "sdMs": 4.6775827084324275,
+        "halfWidth95Ms": 1.208347744299547,
+        "targetMs": 1.2973576599999999,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "SWAT_REAL_TIMESERIES-targeted8",
+        "metric": "verifyMs",
+        "n": 60,
+        "meanMs": 15.686270516666658,
+        "sdMs": 1.328237012835679,
+        "halfWidth95Ms": 0.3431200041555282,
+        "targetMs": 1.5686270516666658,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "SWAT_REAL_TIMESERIES-targeted8",
+        "metric": "generationAndMaterializationMs",
+        "n": 60,
+        "meanMs": 16.542259983333317,
+        "sdMs": 4.712397082536354,
+        "halfWidth95Ms": 1.2173412507835355,
+        "targetMs": 1.6542259983333318,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "SWAT_REAL_TIMESERIES-targeted8",
+        "metric": "localDisclosurePipelineMs",
+        "n": 60,
+        "meanMs": 32.22853049999997,
+        "sdMs": 4.918897851467552,
+        "halfWidth95Ms": 1.2706860559719737,
+        "targetMs": 3.222853049999997,
+        "precisionTargetMet": true
+      }
+    ]
+  },
+  {
+    "conditionId": "SWAT_REAL_TIMESERIES-broad64",
+    "dataset": "SWAT_REAL_TIMESERIES",
+    "datasetSha256": "bd142df3e9a580b6c555dbff7fa62bf912c3646d2246d231a823473010073161",
+    "synthetic": false,
+    "mode": "CHUNK_SET",
+    "scopeShape": "broad64",
+    "totalBytes": 28661700,
+    "z": 4096,
+    "m": 6998,
+    "selectedBytes": 262144,
+    "disclosedBytes": 262144,
+    "disclosedChunkCount": 64,
+    "proofHashBytes": 26624,
+    "proofJsonBytes": 78912,
+    "openingBytes": 2048,
+    "bundleSerializedBytes": 437925,
+    "contentChecked": true,
+    "estimates": [
+      {
+        "conditionId": "SWAT_REAL_TIMESERIES-broad64",
+        "metric": "commitmentMs",
+        "n": 60,
+        "meanMs": 516.5542314833333,
+        "sdMs": 19.84304905608301,
+        "halfWidth95Ms": 5.126003122022516,
+        "targetMs": 51.655423148333334,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "SWAT_REAL_TIMESERIES-broad64",
+        "metric": "auditMs",
+        "n": 60,
+        "meanMs": 559.3217366166666,
+        "sdMs": 23.40459560918531,
+        "halfWidth95Ms": 6.046048156373438,
+        "targetMs": 55.93217366166667,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "SWAT_REAL_TIMESERIES-broad64",
+        "metric": "buildMs",
+        "n": 60,
+        "meanMs": 20.81424035,
+        "sdMs": 1.818356879714797,
+        "halfWidth95Ms": 0.46973139138169845,
+        "targetMs": 2.081424035,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "SWAT_REAL_TIMESERIES-broad64",
+        "metric": "receiverMaterializeMs",
+        "n": 60,
+        "meanMs": 31.77221111666666,
+        "sdMs": 4.645771963770969,
+        "halfWidth95Ms": 1.2001301575774848,
+        "targetMs": 3.1772211116666664,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "SWAT_REAL_TIMESERIES-broad64",
+        "metric": "verifyMs",
+        "n": 60,
+        "meanMs": 57.49322033333334,
+        "sdMs": 5.178190424332232,
+        "halfWidth95Ms": 1.3376684302162258,
+        "targetMs": 5.749322033333335,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "SWAT_REAL_TIMESERIES-broad64",
+        "metric": "generationAndMaterializationMs",
+        "n": 60,
+        "meanMs": 52.58645146666666,
+        "sdMs": 4.802630613081464,
+        "halfWidth95Ms": 1.240651043445846,
+        "targetMs": 5.258645146666666,
+        "precisionTargetMet": true
+      },
+      {
+        "conditionId": "SWAT_REAL_TIMESERIES-broad64",
+        "metric": "localDisclosurePipelineMs",
+        "n": 60,
+        "meanMs": 110.0796718,
+        "sdMs": 7.368376625735563,
+        "halfWidth95Ms": 1.9034535207269219,
+        "targetMs": 11.007967180000001,
+        "precisionTargetMet": true
+      }
+    ]
+  }
+]

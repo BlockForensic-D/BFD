@@ -1,0 +1,27 @@
+{
+  "releaseId": "4728dca809ce703e72d34dafc2086aada3804b7fc63d5d8ab6473f28a6e34682",
+  "hostPackageSha256": "0eed101fb1c36f7fd157f1a7d93c13d2dd61e8bf170abe0883ee91a1e7cc2bea",
+  "files": {
+    "index.js": "f343cbc359604ac806607a25960f1578ffe64d5030fa39a139db1425c4f0f6be",
+    "package-lock.json": "1b96c91df050f0f40e7bed49a14a9f25ce54936663839270053f238609ce661d",
+    "package.json": "c853f9c54cf46f5a199e7c320550b95a5ff60421b7dacf3cf130599f4d945ccd",
+    "src/chaincode/contract.cjs": "8bec0d4c367a46bde17e56338516b008d3feb6bd12f5ffb41c55a6227cd699b7",
+    "src/chaincode/service.cjs": "e84fd56b6e247354672ec4be07c2456f4d5982e50fecf943eeaf72979cf0e155",
+    "src/client/bundle.cjs": "e8282f554118feacef125022fd55be3388e7027d5ec1a74b7ae3fd8cedd5455e",
+    "src/client/clock.cjs": "3c72e05fd71e100646d5fdddc49b70c8ce05dd2ac10277c9296ddb73628d0f1b",
+    "src/client/encrypted-snapshot.cjs": "4235397115772cf17582402981c728c8e947c9168a064dfb7032875c4e6c8e0f",
+    "src/client/erasure.cjs": "a1bbc962dd6201802f189411590f88bf3e410ad58b515b216fc5e2673672fdf6",
+    "src/client/files.cjs": "e0a90889146cd10cd2b46a1268525dcd3b4118de0b5712860b667f8c10ce3a6f",
+    "src/client/gateway.cjs": "428253954902a385e3df118292ca0870edb7e9f1eddbb770f664b6fde3872b1a",
+    "src/client/https-server.cjs": "0982024afed1cc49b38e81df2bc393957b1c844f9df9ec2ad5d1d3d47c00a7dc",
+    "src/client/release.cjs": "2a53db3f398bc0c86a44bd58e24d85ac77a4bc5db197c9bfa28ad743c15743b1",
+    "src/client/semantic.cjs": "d95478d2a0891b83e4551a3ad6547f6a7c996fefe0038ab5bce08c5ae02599f4",
+    "src/client/workflow.cjs": "4f4939ecee5681ab4474ca6e7e9fe264be9be25e2b194069d8445a7d9bed4061",
+    "src/shared/canonical.cjs": "bde5f55ea8e9fa1c055bb54a4b9ae1063e78af0cd7a400a9b7dc68f7fe0369e0",
+    "src/shared/crypto.cjs": "12c94b6f8a1e2407d9730231d5bd72c958e9c556eb315a663b800dc6470ae66a",
+    "src/shared/policy.cjs": "09a6413a505d36470ca4bd65d8ebda9649e0fffbfc42d29585830008edf65394",
+    "tests/helpers/fixture.cjs": "defd9ea6f42d2548a0e0031fbad458f0361c683192d512f38095ff52817f74f2",
+    "tests/helpers/memory.cjs": "3ef652797ca6093e76e593f9ead4d8dbac5a4ccc848831440da85f238e7c740d"
+  },
+  "scope": "18 deployed-package files and the two pinned fixture helpers; regression test is a local packaging validation aid"
+}

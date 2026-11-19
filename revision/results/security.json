@@ -1,0 +1,167 @@
+{
+  "campaignId": "security-20261112T024650Z-d0bc284b",
+  "sourceArchiveSha256": "fc541e8e1e9cadd1758a9bc01fd0fb3212d0de422c55752fe6deaa625d4f0af2",
+  "scope": "Targeted Fabric controls plus local/model experiments; not unrestricted security",
+  "race": [
+    {
+      "round": 1,
+      "validationCodes": [
+        0,
+        11
+      ],
+      "losingSessionAbsent": true
+    },
+    {
+      "round": 2,
+      "validationCodes": [
+        0,
+        11
+      ],
+      "losingSessionAbsent": true
+    },
+    {
+      "round": 3,
+      "validationCodes": [
+        0,
+        11
+      ],
+      "losingSessionAbsent": true
+    }
+  ],
+  "history": [
+    {
+      "mode": "HASH_ONLY",
+      "before": {
+        "contentIntegrity": "NOT_CHECKED",
+        "historicallyAuthorized": true,
+        "currentlyEligible": "SEPARATE_CHECK_REQUIRED",
+        "deliveryAcknowledged": false
+      },
+      "after": {
+        "contentIntegrity": "NOT_CHECKED",
+        "historicallyAuthorized": true,
+        "currentlyEligible": "SEPARATE_CHECK_REQUIRED",
+        "deliveryAcknowledged": false
+      },
+      "currentRelease": "DENIED"
+    },
+    {
+      "mode": "CHUNK_SET",
+      "before": {
+        "contentIntegrity": "PASS",
+        "historicallyAuthorized": true,
+        "currentlyEligible": "SEPARATE_CHECK_REQUIRED",
+        "deliveryAcknowledged": false
+      },
+      "after": {
+        "contentIntegrity": "PASS",
+        "historicallyAuthorized": true,
+        "currentlyEligible": "SEPARATE_CHECK_REQUIRED",
+        "deliveryAcknowledged": false
+      },
+      "currentRelease": "DENIED"
+    },
+    {
+      "mode": "FULL",
+      "before": {
+        "contentIntegrity": "PASS",
+        "historicallyAuthorized": true,
+        "currentlyEligible": "SEPARATE_CHECK_REQUIRED",
+        "deliveryAcknowledged": false
+      },
+      "after": {
+        "contentIntegrity": "PASS",
+        "historicallyAuthorized": true,
+        "currentlyEligible": "SEPARATE_CHECK_REQUIRED",
+        "deliveryAcknowledged": false
+      },
+      "currentRelease": "DENIED"
+    }
+  ],
+  "stale": [
+    {
+      "variant": "current",
+      "postCutoffSerializedBytes": 0,
+      "streamCompleted": false
+    },
+    {
+      "variant": "fast-old",
+      "postCutoffSerializedBytes": 49176,
+      "streamCompleted": true
+    },
+    {
+      "variant": "slow-old",
+      "postCutoffSerializedBytes": 0,
+      "streamCompleted": false
+    },
+    {
+      "variant": "expiry",
+      "postCutoffSerializedBytes": 0,
+      "streamCompleted": false
+    }
+  ],
+  "residual": [
+    {
+      "material": "no-secret",
+      "testedPositions": 6,
+      "validOpenings": 0,
+      "decryptionAttempted": false
+    },
+    {
+      "material": "EMK",
+      "testedPositions": 6,
+      "validOpenings": 6,
+      "decryptionAttempted": true
+    },
+    {
+      "material": "K_SALT",
+      "testedPositions": 6,
+      "validOpenings": 6,
+      "decryptionAttempted": false
+    },
+    {
+      "material": "rho-one",
+      "testedPositions": 6,
+      "validOpenings": 1,
+      "decryptionAttempted": false
+    }
+  ],
+  "metadata": [
+    {
+      "condition": "finite-present",
+      "candidateCount": 3,
+      "matchCount": 1
+    },
+    {
+      "condition": "finite-absent",
+      "candidateCount": 3,
+      "matchCount": 0
+    },
+    {
+      "condition": "template-8-present",
+      "candidateCount": 256,
+      "matchCount": 1
+    },
+    {
+      "condition": "template-8-absent",
+      "candidateCount": 256,
+      "matchCount": 0
+    },
+    {
+      "condition": "template-16-present",
+      "candidateCount": 65536,
+      "matchCount": 1
+    },
+    {
+      "condition": "template-16-absent",
+      "candidateCount": 65536,
+      "matchCount": 0
+    }
+  ],
+  "rollback": {
+    "normal": "DENIED",
+    "restored": "ACCEPTED_NEW_SESSION",
+    "layer": "MODEL_PRODUCTION_SERVICE_MEMORY_ADAPTER"
+  },
+  "hostPrivateBundlesIncluded": false
+}

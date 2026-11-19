@@ -1,0 +1,15 @@
+{
+  "Mode_Comparison_16_Conditions.json": "624c03db63656f2f84a5b445f7aee3692ee68ec59b16c347baec8e3ae011cf4e",
+  "Structural_Scaling_12_Conditions.json": "c7be0aba815100b22efd4e78499d1a33fedf22b31a8822488af00788c02839ca",
+  "Table4_Main_Subset_18_Conditions.json": "2231a08ce5d246b6a2007415e5109bba947a93e52a5ddf9317f0033b05dc226a",
+  "Sensitivity_Timing_2821_Estimates.json": "6f675800c053f48f3ced630cedc86f972723f8d4f6fccdf9d018afb4ab08a9bb",
+  "Semantic_Representative_Overhead.json": "22dc3c477097457b7ce4d8d59d12258260bdd6719237fbb8ca29202a2d80220c",
+  "security/results-summary.json": "9bbfccb35e6e3d991667002259cc0c4312794b03cc7a5d870cf26763f381656b",
+  "r24/confirmation-observations.json": "21ad1446e1959226bc3283c86bd48bf46e168ef2d6f6a55e4f55496a7d58ac89",
+  "r24/summary.json": "1916d359b22ec8026576fa38ed4c511f8a313d3b9abae65f16524d35b4627cc3",
+  "r24/g2-correctness.json": "8aeb41ffe4b786f2853f35f252ae5b936026856601f6eaa2858fb701f5d727c5",
+  "caliper/results/runs.csv": "9e392c10ffe5c00ae6785561b1e2f5ff9677df1b9aa9692b04a682268d5e80e7",
+  "caliper/protocol.json": "c39e4c3a4ee4dfeaaa003be69427b116fffc27d3ed74ffc10efb9768ecaa3d40",
+  "caliper/selection.json": "6cff3b3a16184fe9b14f11a6b9b989c88573c64926777d6f87109bacdc2e7c39",
+  "semantic/semantic-results.json": "f7b7613b38c2ccbf78e2504a2b22dc48f78266039ac7c365a40c598b5c709120"
+}
